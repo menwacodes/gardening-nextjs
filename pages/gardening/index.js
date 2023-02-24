@@ -1,21 +1,22 @@
-// import packages
-// import files with relative reference
+import classes from "./GardeningHome.module.scss"
 
-const GardeningHomePage = ({allHerbs, count}) => {
-    console.log(count)
-    console.log(allHerbs)
-  return (
-    <>
-      Gardening Home Page
-    </>
-  )
-}
+import FoodCard from "@/components/gardening/food/FoodCard";
 
-export async function getStaticProps(){
-    const response = await fetch(`http://localhost:3000/api/gardening/herbs`);
+const GardeningHomePage = ({allFood, count}) => {
+
+    const foodCards = allFood.map(foodItem => <FoodCard key={foodItem.slug} food={foodItem}/>);
+    return (
+        <div className={classes.food_grid}>
+            {foodCards}
+        </div>
+    );
+};
+
+export async function getStaticProps() {
+    const response = await fetch(`http://localhost:3000/api/gardening/food`);
     const data = await response.json();
-    return {props: {allHerbs: data.data, count:data.count}}
+    return {props: {allFood: data.data, count: data.count}};
 
 }
 
-export default GardeningHomePage
+export default GardeningHomePage;

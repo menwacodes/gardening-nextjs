@@ -1,0 +1,775 @@
+[
+  {
+    "slug": "bolloso-napoli-basil",
+    "url": "",
+    "plant": "Basil",
+    "fullName": "Basil, Bolloso Napoli",
+    "image": "basil.jpg",
+    "attributes": {
+      "plantType": "bush",
+      "root": {
+        "depth": {
+          "min": 6,
+          "max": 8
+        },
+        "type": "taproot"
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "annual"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 0.5,
+        "directSow": "3-4 seeds every 12 inches",
+        "indoorStartTimingDays": 14
+      },
+      "seedling": {
+        "daysToGermination": 10,
+        "thinning": "Thin to 2 inches",
+        "transplanting": "3 to 4 weeks"
+      },
+      "grow": {
+        "daysToHarvest": 25,
+        "height": {
+          "min": 12,
+          "max": 16
+        }
+      }
+    },
+    "notes": [
+      "Fertilize sparingly throughout the season with a 5-10-5 fertilizer.",
+      "After the seedlings have produced their first six leaves, prune to above the second set. This encourages the plants to start branching, resulting in more leaves for harvest",
+      "-\tAfter about 6 weeks, pinch off the center shoot to prevent early flowering. If flowers do grow, just cut them off"
+    ]
+  },
+  {
+    "slug": "green-sprouting-broccoli",
+    "url": "",
+    "plant": "Broccoli",
+    "fullName": "Green Sprouting Broccoli",
+    "image": "broccoli.jpg",
+    "attributes": {
+      "plantType": "stalk",
+      "root": {
+        "depth": {
+          "min": 12,
+          "max": 18
+        },
+        "type": "fibrous"
+      },
+      "soil": {
+        "conditions": "Warm, deep, well-drained",
+        "pH": {
+          "min": 6.0,
+          "max": 7.0
+        }
+      },
+      "sun": {
+        "exposure": "partial",
+        "hoursPerDay": 6
+      },
+      "yearType": "perennial"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 3,
+        "directSow": "",
+        "indoorStartTimingDays": 0
+      },
+      "seedling": {
+        "daysToGermination": 10,
+        "thinning": "18 inches between",
+        "transplanting": ""
+      },
+      "grow": {
+        "daysToHarvest": 70,
+        "height": {
+          "min": 18,
+          "max": 30
+        }
+      }
+    },
+    "notes": []
+  },
+  {
+    "slug": "chicago-pickling-cucumber",
+    "url": "",
+    "plant": "Cucumber - Chicago",
+    "fullName": "Chicago Pickling Cucumber",
+    "image": "chicago-cucumber.jpeg",
+    "attributes": {
+      "plantType": "vine",
+      "root": {
+        "depth": {
+          "min": 12
+        },
+        "type": "adventitious"
+      },
+      "soil": {
+        "conditions": "Moisture retentive while well-drained",
+        "pH": {
+          "min": 5.5,
+          "max": 6.5
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "annual"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.75,
+        "startSpacing": 2,
+        "directSow": "",
+        "indoorStartTimingDays": 0
+      },
+      "seedling": {
+        "daysToGermination": 10,
+        "thinning": "",
+        "transplanting": "60 inches between hills, do not disturb roots"
+      },
+      "grow": {
+        "daysToHarvest": 58,
+        "height": {
+          "min": 12,
+          "max": 48
+        }
+      }
+    },
+    "notes": []
+  },
+  {
+    "slug": "wisconsin-smr-58",
+    "url": "https://www.wildroseheritageseed.com/store/p307/Cucumber_-_Wisconsin_SMR_58.html",
+    "plant": "Cucumber - Wisconsin",
+    "daysToHarvest": 64,
+    "fullName": "Wisconsin SMR 58",
+    "image": "wisconsin-cucumber.jpeg",
+    "attributes": {
+      "plantType": "vine",
+      "root": {
+        "depth": {
+          "min": 12,
+          "max": 36
+        },
+        "type": "adventitious"
+      },
+      "soil": {
+        "conditions": "Well worked rich, loose well-drained soil",
+        "pH": {
+          "min": 6,
+          "max": 6.8
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "annual"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.75,
+        "startSpacing": 2,
+        "directSow": "6 seeds per hill once all danger of frost has passed",
+        "indoorStartTimingDays": 10
+      },
+      "seedling": {
+        "daysToGermination": 10,
+        "thinning": "4 vines per hill",
+        "transplanting": "start seeds indoors 3-4 weeks before last spring frost, placing 3-4 seeds 12mm (1/2\") deep in fair sized pots. Keep the temperature at least 21-26˚C (70-80˚ F).  When two or three leaves appear on each plant, cut off all but the strongest plant with scissors"
+      },
+      "grow": {
+        "daysToHarvest": 55,
+        "height": {
+          "min": 48,
+          "max": 60
+        }
+      }
+    },
+    "notes": [
+      "If possible, utilize drip irrigation to keep leaves dry and slow leaf disease development",
+      "Planting several radishes with cucumbers seems to repel damaging cucumber beetles",
+      "Keep the soil consistently moist with an inch of water per week"
+    ]
+  },
+  {
+    "slug": "detroit-dark-red-beets",
+    "url": "",
+    "plant": "Beets",
+    "fullName": "Detroit Dark Red Beets",
+    "image": "beets.jpg",
+    "attributes": {
+      "plantType": "root",
+      "root": {
+        "depth": {
+          "min": 10,
+          "max": 24
+        },
+        "type": "taproot"
+      },
+      "soil": {
+        "conditions": "Rich, moist, sandy loam is best",
+        "pH": {
+          "min": 6.0,
+          "max": 7.0
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "annual"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 1,
+        "startSpacing": 1,
+        "directSow": "Plant early spring or later in summer for fall crops",
+        "indoorStartTimingDays": 20
+      },
+      "seedling": {
+        "daysToGermination": 12,
+        "thinning": "7 inches",
+        "transplanting": ""
+      },
+      "grow": {
+        "daysToHarvest": 63,
+        "height": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    }
+  },
+  {
+    "slug": "carrot",
+    "url": "",
+    "plant": "Carrot",
+    "fullName": "Carrot",
+    "image": "carrots.jpeg",
+    "attributes": {
+      "plantType": "root",
+      "root": {
+        "depth": {
+          "min": 8,
+          "max": 12
+        },
+        "type": "taproot"
+      },
+      "soil": {
+        "conditions": "Well-drained, rich",
+        "pH": {
+          "min": 6.0,
+          "max": 7.0
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "annual"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 0.5,
+        "directSow": "",
+        "indoorStartTimingDays": 0
+      },
+      "seedling": {
+        "daysToGermination": 14,
+        "thinning": "",
+        "transplanting": "2 inches on either transplant or sow direct"
+      },
+      "grow": {
+        "daysToHarvest": 80,
+        "height": {
+          "min": 6,
+          "max": 12
+        }
+      }
+    },
+    "notes": []
+  },
+  {
+    "slug": "cilantro",
+    "plant": "Cilantro",
+    "fullName": "Cilantro",
+    "image": "cilantro.jpeg",
+    "attributes": {
+      "plantType": "bush",
+      "root": {
+        "depth": {
+          "min": 8,
+          "max": 18
+        },
+        "type": "taproot"
+      },
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 6.5,
+          "max": 7.5
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "annual"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 1,
+        "directSow": "",
+        "indoorStartTimingDays": 14
+      },
+      "seedling": {
+        "daysToGermination": 10,
+        "thinning": "",
+        "transplanting": ""
+      },
+      "grow": {
+        "daysToHarvest": 75,
+        "height": {
+          "min": 12,
+          "max": 18
+        }
+      }
+    },
+    "notes": [
+      "Bolting is likely in the heat of midsummer",
+      "Harvest when the plants are at least 6\" tall, start by identifying the largest, outer leaves. Then, using a pair of scissors or your hands snip the stems of these leaves, about an inch from the surface of the soil"
+    ]
+  },
+  {
+    "slug": "dill",
+    "plant": "Dill",
+    "fullName": "Dill",
+    "image": "dill.jpg",
+    "attributes": {
+      "plantType": "stalk",
+      "root": {
+        "depth": {
+          "min": 12,
+          "max": 24
+        },
+        "type": "taproot"
+      },
+      "soil": {
+        "conditions": "moderately rich",
+        "pH": {
+          "min": 5.0,
+          "max": 7.0
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "biennial"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 1,
+        "directSow": "Space dill plants 10 to 12 inches apart",
+        "indoorStartTimingDays": 40
+      },
+      "seedling": {
+        "daysToGermination": 15,
+        "thinning": "",
+        "transplanting": ""
+      },
+      "grow": {
+        "daysToHarvest": 90,
+        "height": {
+          "min": 24,
+          "max": 48
+        }
+      }
+    },
+    "notes": [
+      "Dill needs consistent watering, but should not be over-watered",
+      "You can fertilize dill with a balanced fertilizer, but it is not necessary",
+      "Dill can be harvested when the plants are about 6 inches tall.",
+      "Dill is often grown in clumps, not rows"
+    ]
+  },
+  {
+    "slug": "greek-oregano",
+    "url": "https://garden.org/plants/view/78060/Greek-Oregano-Origanum-vulgare-subsp-hirtum/",
+    "plant": "Oregano",
+    "fullName": "Greek Oregano",
+    "image": "oregano.jpeg",
+    "attributes": {
+      "plantType": "bush",
+      "root": {
+        "depth": {
+          "min": 6,
+          "max": 18
+        },
+        "type": "taproot"
+      },
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 6.5,
+          "max": 7.0
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "perennial"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.75,
+        "startSpacing": 8,
+        "directSow": "",
+        "indoorStartTimingDays": 0
+      },
+      "seedling": {
+        "daysToGermination": 10,
+        "thinning": "12 to 18 in",
+        "transplanting": "12 inches apart"
+      },
+      "grow": {
+        "daysToHarvest": 56,
+        "height": {
+          "min": 6,
+          "max": 12
+        }
+      }
+    },
+    "notes": []
+  },
+  {
+    "slug": "italian-parsley",
+    "plant": "Parsley, Italian",
+    "fullName": "Italian Parsley",
+    "image": "parsley.jpg",
+    "attributes": {
+      "plantType": "bush",
+      "root": {
+        "depth": {
+          "min": 12,
+          "max": 16
+        },
+        "type": "taproot"
+      },
+      "soil": {
+        "conditions": "Well-drained, rich in organic matter",
+        "pH": {
+          "min": 6.0,
+          "max": 7.0
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "biennial"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 7,
+        "directSow": "",
+        "indoorStartTimingDays": 21
+      },
+      "seedling": {
+        "daysToGermination": 20,
+        "thinning": "Once seedlings reach 2 to 3-in tall, 12\"",
+        "transplanting": "8 to 10 inches apart"
+      },
+      "grow": {
+        "daysToHarvest": 70,
+        "height": {
+          "min": 7,
+          "max": 12
+        }
+      }
+    },
+    "notes": [
+      "Harvest parsley by cutting the leafy stems from the base of the plant—this will also serve to make the plant grow back bushier",
+      "Parsley taproot is edible"
+    ]
+  },
+  {
+    "slug": "rosemary",
+    "url": "",
+    "plant": "Rosemary",
+    "fullName": "Rosemary",
+    "image": "rosemary.jpeg",
+    "attributes": {
+      "plantType": "bush",
+      "root": {
+        "depth": {
+          "min": 10,
+          "max": 14
+        },
+        "type": "taproot"
+      },
+      "soil": {
+        "conditions": "Well-draining, relatively fertile",
+        "pH": {
+          "min": 6.0,
+          "max": 7.0
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "perennial"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 1,
+        "directSow": "",
+        "indoorStartTimingDays": 0
+      },
+      "seedling": {
+        "daysToGermination": 21,
+        "thinning": "",
+        "transplanting": "18 inches between"
+      },
+      "grow": {
+        "daysToHarvest": 42,
+        "height": {
+          "min": 24,
+          "max": 48
+        }
+      }
+    },
+    "notes": []
+  },
+  {
+    "slug": "capsicum-chinense",
+    "url": "",
+    "plant": "Scotch Bonnet",
+    "fullName": "Capsicum Chinese",
+    "image": "scotch-bonnet.jpeg",
+    "attributes": {
+      "plantType": "bush",
+      "root": {
+        "depth": {
+          "min": 18,
+          "max": 24
+        },
+        "type": "fibrous"
+      },
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 6.0,
+          "max": 7.0
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "annual"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 0,
+        "directSow": "",
+        "indoorStartTimingDays": 0
+      },
+      "seedling": {
+        "daysToGermination": 14,
+        "thinning": "",
+        "transplanting": ""
+      },
+      "grow": {
+        "daysToHarvest": 120,
+        "height": {
+          "min": 24,
+          "max": 36
+        }
+      }
+    },
+    "notes": []
+  },
+  {
+    "slug": "bloomsdale-long-standing-spinach",
+    "url": "",
+    "plant": "Spinach",
+    "fullName": "Bloomsdale Long Standing Spinach",
+    "image": "spinach.jpeg",
+    "attributes": {
+      "plantType": "bush",
+      "root": {
+        "depth": {
+          "min": 4,
+          "max": 6
+        },
+        "type": "taproot"
+      },
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 6.5,
+          "max": 8.0
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 6
+      },
+      "yearType": "annual"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.5,
+        "startSpacing": 1,
+        "directSow": "",
+        "indoorStartTimingDays": 0
+      },
+      "seedling": {
+        "daysToGermination": 5,
+        "thinning": "",
+        "transplanting": "3 inches apart"
+      },
+      "grow": {
+        "daysToHarvest": 47,
+        "height": {
+          "min": 8,
+          "max": 12
+        }
+      }
+    },
+    "notes": [
+      "Prefers a pH of 7.0+",
+      "5 days to germinate at 24C, can take up to a month at 4C"
+    ]
+  },
+  {
+    "slug": "thymus-vulgaris",
+    "url": "https://garden.org/plants/view/79248/Common-Thyme-Thymus-vulgaris/",
+    "plant": "Thyme",
+    "fullName": "Thymus vulgaris",
+    "image": "thyme.webp",
+    "attributes": {
+      "plantType": "",
+      "root": {
+        "depth": {
+          "min": 14,
+          "max": 24
+        },
+        "type": "taproot"
+      },
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 6.0,
+          "max": 8.0
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "perennial"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 4,
+        "directSow": "Sow 6-8 weeks before last frost",
+        "indoorStartTimingDays": 18
+      },
+      "seedling": {
+        "daysToGermination": 28,
+        "thinning": "",
+        "transplanting": "Transplant to individual containers when seedlings have at least 2 pairs of leaves. Harden off 1 week before planting out 12 inches apart"
+      },
+      "grow": {
+        "daysToHarvest": 90,
+        "height": {
+          "min": 6,
+          "max": 12
+        }
+      }
+    },
+    "notes": []
+  },
+  {
+    "slug": "roma-tomato",
+    "url": "",
+    "plant": "Tomato",
+    "tomatoStuff": {
+      "determinant": true,
+      "usage": [
+        "pastes",
+        "sauces"
+      ]
+    },
+    "fullName": "Roma Tomato",
+    "image": "roma-tomato.jpg",
+    "attributes": {
+      "plantType": "bush",
+      "root": {
+        "depth": {
+          "min": 20,
+          "max": 0
+        },
+        "type": "fibrous"
+      },
+      "soil": {
+        "conditions": "Reliably moist, well drained",
+        "pH": {
+          "min": 6.2,
+          "max": 6.5
+        }
+      },
+      "sun": {
+        "exposure": "full",
+        "hoursPerDay": 8
+      },
+      "yearType": "annual"
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 0,
+        "directSow": "Sow seeds on the surface of a good, free-draining, damp, seed sowing mix and cover with a fine sprinkling of compost or vermiculite",
+        "indoorStartTimingDays": 0
+      },
+      "seedling": {
+        "daysToGermination": 10,
+        "thinning": "",
+        "transplanting": "When seedlings gain 2 true leaves, transplant into individual 7.5cm (3\") pots of compost and grow on at a minimum temperature of 15C (59F)"
+      },
+      "grow": {
+        "daysToHarvest": 80,
+        "height": {
+          "min": 0,
+          "max": 59
+        }
+      }
+    },
+    "notes": [
+      "Place seed trays in a propagator at a constant temperature of around 15-20C (59-68F) until after germination, which takes 7-14 days.",
+      "When planting, install cages or stakes for support to prevent root disturbance later on.",
+      "To prevent problems like blossom end rot and split skins, water plants deeply once a week instead of providing more frequent shallow watering.",
+      "Feed tomatoes regularly with a high potash plant food once the first truss of fruit has formed."
+    ]
+  }
+]
