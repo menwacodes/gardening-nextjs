@@ -1,0 +1,45 @@
+{
+    "attributes": {
+      "plantType": "",
+      "root": {
+        "depth": {
+          "min": 0,
+          "max": 0
+        },
+        "type": ""
+      },
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sun": {
+        "exposure": "",
+        "hoursPerDay": 0
+      },
+      "yearType": ""
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0,
+        "startSpacing": 0,
+        "directSow": "",
+        "indoorStartTimingDays": 0
+      },
+      "seedling": {
+        "daysToGermination": 0,
+        "thinning": "",
+        "transplanting": ""
+      },
+      "grow": {
+        "daysToHarvest": 0,
+        "height": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    "notes": []
+  }
