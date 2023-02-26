@@ -40,11 +40,8 @@
         }
       }
     },
-    "notes": [
-      "Fertilize sparingly throughout the season with a 5-10-5 fertilizer.",
-      "After the seedlings have produced their first six leaves, prune to above the second set. This encourages the plants to start branching, resulting in more leaves for harvest",
-      "-\tAfter about 6 weeks, pinch off the center shoot to prevent early flowering. If flowers do grow, just cut them off"
-    ]
+    "notes":
+      "<p>Fertilize sparingly throughout the season with a 5-10-5 fertilizer.</p><p>After the seedlings have produced their first six leaves, prune to above the second set. This encourages the plants to start branching, resulting in more leaves for harvest</p><ul><li>After about 6 weeks, pinch off the center shoot to prevent early flowering. If flowers do grow, just cut them off</li></ul>"
   },
   {
     "slug": "green-sprouting-broccoli",
@@ -94,7 +91,7 @@
         }
       }
     },
-    "notes": []
+    "notes": ""
   },
   {
     "slug": "chicago-pickling-cucumber",
@@ -143,7 +140,7 @@
         }
       }
     },
-    "notes": []
+    "notes": ""
   },
   {
     "slug": "wisconsin-smr-58",
@@ -194,11 +191,8 @@
         }
       }
     },
-    "notes": [
-      "If possible, utilize drip irrigation to keep leaves dry and slow leaf disease development",
-      "Planting several radishes with cucumbers seems to repel damaging cucumber beetles",
-      "Keep the soil consistently moist with an inch of water per week"
-    ]
+    "notes":
+      "<p>If possible, utilize drip irrigation to keep leaves dry and slow leaf disease development</p><p>Planting several radishes with cucumbers seems to repel damaging cucumber beetles</p><p>Keep the soil consistently moist with an inch of water per week</p>"
   },
   {
     "slug": "detroit-dark-red-beets",
@@ -238,7 +232,7 @@
       "seedling": {
         "daysToGermination": 12,
         "thinning": "7 inches",
-        "transplanting": ""
+        "transplanting": "About four weeks after the last frost"
       },
       "grow": {
         "daysToHarvest": 63,
@@ -247,7 +241,8 @@
           "max": 0
         }
       }
-    }
+    },
+    "notes": ""
   },
   {
     "slug": "carrot",
@@ -297,7 +292,7 @@
         }
       }
     },
-    "notes": []
+    "notes": ""
   },
   {
     "slug": "cilantro",
@@ -346,10 +341,8 @@
         }
       }
     },
-    "notes": [
-      "Bolting is likely in the heat of midsummer",
-      "Harvest when the plants are at least 6\" tall, start by identifying the largest, outer leaves. Then, using a pair of scissors or your hands snip the stems of these leaves, about an inch from the surface of the soil"
-    ]
+    "notes":
+      "<p>Bolting is likely in the heat of midsummer</p><p>Harvest when the plants are at least 6\" tall, start by identifying the largest, outer leaves. Then, using a pair of scissors or your hands snip the stems of these leaves, about an inch from the surface of the soil</p>"
   },
   {
     "slug": "dill",
@@ -398,12 +391,8 @@
         }
       }
     },
-    "notes": [
-      "Dill needs consistent watering, but should not be over-watered",
-      "You can fertilize dill with a balanced fertilizer, but it is not necessary",
-      "Dill can be harvested when the plants are about 6 inches tall.",
-      "Dill is often grown in clumps, not rows"
-    ]
+    "notes":
+      "<p>Dill needs consistent watering, but should not be over-watered</p><p>You can fertilize dill with a balanced fertilizer, but it is not necessary</p><p>Dill can be harvested when the plants are about 6 inches tall.</p><p>Dill is often grown in clumps, not rows</p>"
   },
   {
     "slug": "greek-oregano",
@@ -453,7 +442,7 @@
         }
       }
     },
-    "notes": []
+    "notes": ""
   },
   {
     "slug": "italian-parsley",
@@ -502,10 +491,8 @@
         }
       }
     },
-    "notes": [
-      "Harvest parsley by cutting the leafy stems from the base of the plant—this will also serve to make the plant grow back bushier",
-      "Parsley taproot is edible"
-    ]
+    "notes":
+      "<p>Harvest parsley by cutting the leafy stems from the base of the plant—this will also serve to make the plant grow back bushier</p><p>Parsley taproot is edible</p>"
   },
   {
     "slug": "rosemary",
@@ -555,10 +542,10 @@
         }
       }
     },
-    "notes": []
+    "notes": ""
   },
   {
-    "slug": "capsicum-chinense",
+    "slug": "capsicum-chinese",
     "url": "",
     "plant": "Scotch Bonnet",
     "fullName": "Capsicum Chinese",
@@ -605,7 +592,7 @@
         }
       }
     },
-    "notes": []
+    "notes": ""
   },
   {
     "slug": "bloomsdale-long-standing-spinach",
@@ -655,10 +642,8 @@
         }
       }
     },
-    "notes": [
-      "Prefers a pH of 7.0+",
-      "5 days to germinate at 24C, can take up to a month at 4C"
-    ]
+    "notes":
+      "<p>Prefers a pH of 7.0+</p><p>5 days to germinate at 24C, can take up to a month at 4C</p>"
   },
   {
     "slug": "thymus-vulgaris",
@@ -698,7 +683,7 @@
       "seedling": {
         "daysToGermination": 28,
         "thinning": "",
-        "transplanting": "Transplant to individual containers when seedlings have at least 2 pairs of leaves. Harden off 1 week before planting out 12 inches apart"
+        "transplanting": "See Notes"
       },
       "grow": {
         "daysToHarvest": 90,
@@ -708,7 +693,7 @@
         }
       }
     },
-    "notes": []
+    "notes": "<p>Transplant to individual containers when seedlings have at least 2 pairs of leaves.</p><p>Harden off 1 week before planting out 12 inches apart</p>"
   },
   {
     "slug": "roma-tomato",
@@ -765,11 +750,7 @@
         }
       }
     },
-    "notes": [
-      "Place seed trays in a propagator at a constant temperature of around 15-20C (59-68F) until after germination, which takes 7-14 days.",
-      "When planting, install cages or stakes for support to prevent root disturbance later on.",
-      "To prevent problems like blossom end rot and split skins, water plants deeply once a week instead of providing more frequent shallow watering.",
-      "Feed tomatoes regularly with a high potash plant food once the first truss of fruit has formed."
-    ]
+    "notes":
+      "<p>Place seed trays in a propagator at a constant temperature of around 15-20C (59-68F) until after germination, which takes 7-14 days.</p><p>When planting, install cages or stakes for support to prevent root disturbance later on.</p><p>To prevent problems like blossom end rot and split skins, water plants deeply once a week instead of providing more frequent shallow watering.</p><p>Feed tomatoes regularly with a high potash plant food once the first truss of fruit has formed.</p>"
   }
 ]

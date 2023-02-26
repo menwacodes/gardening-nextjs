@@ -8,5 +8,5 @@ export default function Home() {
 }
 
 export async function getStaticProps() {
-  return {redirect: {destination: "/gardening", permanent: true}}
+  return {redirect: {destination: "/gardening/food", permanent: true}}
 }
