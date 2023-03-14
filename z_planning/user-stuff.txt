@@ -5,9 +5,21 @@ Installs
 - validator (for mongoose validation)
 
 Redux Store Set Up
-/store/index.js to hold reducers
-Set up /store/reducers and /store/actions
-Create userReducer and put into index.js
-Wrap _app.js with Provider and store
+- /store/index.js to hold reducers
+- Set up /store/reducers and /store/actions
+- Create userReducer and put into index.js
+- Wrap _app.js with Provider and store
+
+Database Connection
+- Set up a mongoose connection to the db to be reused
+- Data load with mongoimport --uri mongodb+srv://menwa:HomerBoo2000@gardening.3vtrb0b.mongodb.net/gardening --collection food --type json --file food.json --jsonArray
 
 User Set Up
+- Create /model to hold user model
+- npm i bcryptjs
+- Create /database/services/userService to hold
+    - userExists
+    - findUserByEmail
+    - hashPassword
+    - passwordsEqual
+- Create API to register a user

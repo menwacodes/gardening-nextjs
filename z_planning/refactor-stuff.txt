@@ -1,0 +1,6 @@
+REFACTOR (and update notes)
+- userModel.js for validate
+- userReducer take out loading into another reducer
+- userService: userExists, simplify
+- register API:
+    - messages to be more generic
