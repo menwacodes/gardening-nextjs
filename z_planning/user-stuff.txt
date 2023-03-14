@@ -1,0 +1,13 @@
+Installs
+- @redux/toolkit
+- react-redux
+- mongoose (for models)
+- validator (for mongoose validation)
+
+Redux Store Set Up
+/store/index.js to hold reducers
+Set up /store/reducers and /store/actions
+Create userReducer and put into index.js
+Wrap _app.js with Provider and store
+
+User Set Up
