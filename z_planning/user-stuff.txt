@@ -23,3 +23,22 @@ User Set Up
     - hashPassword
     - passwordsEqual
 - Create API to register a user
+
+
+
+Authentication Set Up
+- set up next auth boilerplate
+- npm i next-auth
+- <span class="pink monospace">/pages/api/auth/[...nextauth].js</span>
+    - See 5-next-auth-session...
+
+Create Actions for the Store Updates (logins)
+- Async functions to register user and create JWT
+- See 5-next-auth-session...
+
+Create Auth Page
+- Need route in pages to reach
+- Need form component
+
+Auth Form
+- Has state to determine if it's register or sign in (default)

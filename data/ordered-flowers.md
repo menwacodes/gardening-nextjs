@@ -1,0 +1,26 @@
+AFRICAN DAISY ≈ 20 
+ALYSSUM, Carpet of Snow ≈ 165 
+ASTER, Crego ≈ 85 
+ASTER, Powderpuff ≈ 70 
+BACHELOR BUTTON ≈ 96 
+CALENDULA ≈ 38 
+CANDYTUFT ≈ 250 
+CLEOME, Pink Queen ≈ 173 
+COSMOS, Sensation ≈ 56 
+CUT FLOWER MIX ≈ 75 
+DAISY, Shasta ≈ 230 
+EVENING PRIMROSE ≈ 620 
+FORGET-ME-NOT ≈ 850 
+GYPSOPHILA ≈ 330 
+MARIGOLD, Crackerjack ≈ 85 
+MARIGOLD, Sparky ≈ 90 
+MORNING GLORY, Mix ≈ 24 
+PETUNIA, Choice Mix ≈ 955 
+PINKS ≈ 275 
+POPPY, Red Corn ≈ 735 
+SNAPDRAGON, Tetra Mix ≈ 710 
+SUNFLOWER, Giant Grey ≈ 28 
+SWEET WILLIAM ≈ 162 
+WILDFLOWER MIX, NA ≈ 330 
+ZINNIA, California Giant ≈ 45 
+ZINNIA, Lilliput ≈ 45. 

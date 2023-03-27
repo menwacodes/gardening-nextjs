@@ -1,0 +1,774 @@
+[
+  {
+    "plant": "African Daisy",
+    "slug": "osteospermum",
+    "url": "https://www.projectpurityseeds.com/store/p165/African-Daisy-Mix-Flower-Seeds.html",
+    "fullName": "Osteospermum",
+    "image": "",
+    "blooms": "",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "Birds",
+      "root": {
+        "depth": {
+          "min": 0,
+          "max": 0
+        },
+        "type": "fibrous"
+      },
+      "soil": {
+        "conditions": "Well-drained",
+        "pH": {
+          "min": 5,
+          "max": 5.5
+        }
+      },
+      "sun": {
+        "exposure": "full"
+      }
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0,
+        "startSpacing": 9,
+        "directSow": "12 inches apart",
+        "indoorStartTimingDays": 77
+      },
+      "seedling": {
+        "daysToGermination": 14,
+        "thinning": "",
+        "transplanting": ""
+      },
+      "grow": {
+        "height": {
+          "min": 12,
+          "max": 36
+        },
+        "width": {
+          "min": 12,
+          "max": 24
+        },
+        "water": "1 inch per week",
+        "fertilizer": "Balanced, monthly, potted may be more frequent"
+      }
+    },
+    "notes": "<p>Once seedlings are 2-3 inches, transplant to pots until frost has passed</p><p>Needs light to germinate, sprinkle seeds on top of soil to plant and do not cover</p><p>Transplant outdoors when the soil has thoroughly warmed, several weeks after the last frost.</p>"
+  },
+  {
+    "plant": "Alyssum",
+    "slug": "lobularia-maritima",
+    "url": "https://www.projectpurityseeds.com/store/p509/Carpet-Of-Snow-Sweet-Alyssum-Flower-Seeds.html",
+    "fullName": "Lobularia maritima",
+    "image": "",
+    "blooms": "Spring, fall",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "Bees, Butterflies, Hoverflies, and Predatory Wasps",
+      "root": {
+        "depth": {
+          "min": 4,
+          "max": 6
+        },
+        "type": ""
+      },
+      "soil": {
+        "conditions": "Medium moisture, well-drained",
+        "pH": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sun": {
+        "exposure": "Full or partial"
+      }
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.125,
+        "startSpacing": 1,
+        "directSow": "Surface sow",
+        "indoorStartTimingDays": 49
+      },
+      "seedling": {
+        "daysToGermination": 10,
+        "thinning": "2 inches",
+        "transplanting": "When seedlings have several pairs of true leaves and soil is at least 16C, transplant"
+      },
+      "grow": {
+        "height": {
+          "min": 3,
+          "max": 10
+        },
+        "width": {
+          "min": 2,
+          "max": 4
+        },
+        "water": "1 inch per week",
+        "fertilizer": "Not much, can add well-balanced if desired"
+      }
+    },
+    "notes": "<p>Flowers arise from June to October</p><p>Press the seed into the surface of the soil, since it needs light to germinate</p><p>Does not appreciate dry soil</p>"
+  },
+  {
+    "plant": "Sunflower, Common",
+    "slug": "helianthus-annuus",
+    "url": "https://www.wildflower.org/plants/result.php?id_plant=hean3",
+    "fullName": "Helianthus annuus",
+    "image": "",
+    "blooms": "Jun-Nov",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "Honeybees, Bumblebees, Birds, Squirrels",
+      "root": {
+        "depth": {
+          "min": 60,
+          "max": 72
+        },
+        "type": "taproot"
+      },
+      "soil": {
+        "conditions": "Dry, disturbed clays or heavy sands",
+        "pH": {
+          "min": 6.0,
+          "max": 6.8
+        }
+      },
+      "sun": {
+        "exposure": "full"
+      }
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 1,
+        "startSpacing": 30,
+        "directSow": "Away from other plants",
+        "indoorStartTimingDays": 0
+      },
+      "seedling": {
+        "daysToGermination": 0,
+        "thinning": "",
+        "transplanting": ""
+      },
+      "grow": {
+        "height": {
+          "min": 30,
+          "max": 120
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "Medium",
+        "fertilizer": "Nitrogen side dressing, light"
+      }
+    },
+    "notes": "Needs to be dug up at end of season due to allelopathic properties"
+  },
+  {
+    "plant": "Sage - Broadleaf",
+    "slug": "salvia-officinalis",
+    "url": "https://www.projectpurityseeds.com/store/p25/Broadleaf-Sage-Herb-Seeds.html",
+    "fullName": "Salvia Officinalis",
+    "image": "",
+    "blooms": "",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "None",
+      "root": {
+        "depth": {
+          "min": 6,
+          "max": 8
+        },
+        "type": "Shallow"
+      },
+      "soil": {
+        "conditions": "Any, well-drained",
+        "pH": {
+          "min": 5.6,
+          "max": 7.8
+        }
+      },
+      "sun": {
+        "exposure": "full/partial 6 hours"
+      }
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": .25,
+        "startSpacing": 0,
+        "directSow": "Not recommended",
+        "indoorStartTimingDays": 0
+      },
+      "seedling": {
+        "daysToGermination": 15,
+        "thinning": "12-15 inches",
+        "transplanting": ""
+      },
+      "grow": {
+        "height": {
+          "min": 12,
+          "max": 24
+        },
+        "width": {
+          "min": 12,
+          "max": 15
+        },
+        "water": "Low-Medium",
+        "fertilizer": "Little"
+      }
+    },
+    "notes": "<p>Sow indoors, 6-8 weeks before last spring frost, due to long germination in cooler soil</p><p>Keep seed soil lightly moist with spray bottle</p><p>Germination rate is naturally low</p><p>Do not plant near cucumbers, do plant near carrots</p><p>Maturity in 75 days, optimally harvest in second year</p>"
+  },
+  {
+    "plant": "Marigold CrackerJack",
+    "slug": "tagetes-erecta",
+    "url": "https://www.projectpurityseeds.com/store/p299/Sparky-Mix-Marigold-Flower-Seeds.html",
+    "fullName": "Tagetes Erecta",
+    "image": "marigold.jpeg",
+    "blooms": "",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": [
+        "Bees, butterflies, hummingbirds, and ladybugs"
+      ],
+      "root": {
+        "depth": {
+          "min": 6,
+          "max": 8
+        },
+        "type": "fibrous"
+      },
+      "soil": {
+        "conditions": "Average",
+        "pH": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sun": {
+        "exposure": "Full"
+      }
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.125,
+        "startSpacing": 0,
+        "directSow": "",
+        "indoorStartTimingDays": 49
+      },
+      "seedling": {
+        "daysToGermination": 10,
+        "thinning": "8-12 inches",
+        "transplanting": ""
+      },
+      "grow": {
+        "height": {
+          "min": 9,
+          "max": 14
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "Medium",
+        "fertilizer": ""
+      }
+    },
+    "notes": "<p>Best started indoors, surface sown to provide germination light</p><p>Germination in 7-10 days</p><p>Due to the possible allelopathic effects, it’s probably best to plant marigolds and vegetables in separate beds</p>"
+  },
+  {
+  "plant": "Marigold Sparky",
+  "slug": "tagetes-patula",
+  "url": "",
+  "fullName": "Tagetes Patula",
+  "image": "",
+  "blooms": "",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "",
+    "root": {
+      "depth": {
+        "min": 0,
+        "max": 0
+      },
+      "type": ""
+    },
+    "soil": {
+      "conditions": "",
+      "pH": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "sun": {
+      "exposure": ""
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0,
+      "startSpacing": 0,
+      "directSow": "",
+      "indoorStartTimingDays": 0
+    },
+    "seedling": {
+      "daysToGermination": 0,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 0,
+        "max": 0
+      },
+      "width": {
+        "min": 0,
+        "max": 0
+      },
+      "water": "",
+      "fertilizer": ""
+    }
+  },
+  "notes": "<p></p>"
+},
+  {
+    "plant": "Zinnia",
+    "slug": "zinnia-elegans",
+    "url": "https://www.projectpurityseeds.com/store/p162/Canary-Bird-Zinnia-Flower-Seeds.html",
+    "fullName": "Zinnia Elegans",
+    "image": "zinnia.jpeg",
+    "blooms": "",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "Butterflies, Bees, hummingbirds",
+      "root": {
+        "depth": {
+          "min": 12,
+          "max": 24
+        },
+        "type": ""
+      },
+      "soil": {
+        "conditions": "Rich",
+        "pH": {
+          "min": 6.0,
+          "max": 6.5
+        }
+      },
+      "sun": {
+        "exposure": "Full"
+      }
+    },
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 0,
+        "directSow": "18-24 inches",
+        "indoorStartTimingDays": 35
+      },
+      "seedling": {
+        "daysToGermination": 0,
+        "thinning": "",
+        "transplanting": "10-12 inches apart"
+      },
+      "grow": {
+        "height": {
+          "min": 24,
+          "max": 36
+        },
+        "width": {
+          "min": 4,
+          "max": 5
+        },
+        "water": "Medium-heavy",
+        "fertilizer": "Slow-release when planted, booster mid summer"
+      }
+    },
+    "notes": "<p>Needs light to germinate</p><p>Requires full sun</p><p>Direct sowing is preferable</p><p>Sensitive to root disturbance, be especially careful when transplanting</p><p>Add garden compost to the soil if it is heavy or infertile</p><p>Min day temp: 16C</p><p>Sow a round of seeds every week or so for several weeks to extend the flowering period</p>"
+  },
+  {
+  "plant": "Candytuft Umbellata",
+  "slug": "iberis-sempervirens",
+  "url": "https://plants.ces.ncsu.edu/plants/iberis-sempervirens/",
+  "fullName": "Iberis Sempervirens",
+  "image": "",
+  "blooms": "Late spring / early summer",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "Pollinators",
+    "root": {
+      "depth": {
+        "min": 8,
+        "max": 0
+      },
+      "type": "Adventitious"
+    },
+    "soil": {
+      "conditions": "Clay, Silt, Sand",
+      "pH": {
+        "min": 6.0,
+        "max": 7.3
+      }
+    },
+    "sun": {
+      "exposure": "Full"
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0,
+      "startSpacing": 0,
+      "directSow": "6\" to 9\" apart",
+      "indoorStartTimingDays": 49
+    },
+    "seedling": {
+      "daysToGermination": 18,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 6,
+        "max": 12
+      },
+      "width": {
+        "min": 6,
+        "max": 18
+      },
+      "water": "Moist to slightly dry",
+      "fertilizer": "Medium"
+    }
+  },
+  "notes": "<p>Candytuft works well as an accent, border planting, or along walkways. It is attractive as a groundcover, cascading over the edge of raised beds or containers, and sprawling over a rock wall.</p><p>Lime can be added to adjust soil</p><p>If growing indoors, maintain 18°-21°C within growing medium</p><p>Trim lightly after blooming</p><p></p><p></p><p></p>"
+},
+  {
+  "plant": "Sweet William",
+  "slug": "dianthus-barbatus",
+  "url": "https://www.projectpurityseeds.com/store/p521/Holborn-Glory-Sweet-Williams-Flower-Seeds.html",
+  "fullName": "Dianthus Barbatus",
+  "image": "sweet-william.jpeg",
+  "blooms": "Late Spring to Summer",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "Bees, butterflies, hummingbirds, moths, and songbirds",
+    "root": {
+      "depth": {
+        "min": 0,
+        "max": 0
+      },
+      "type": ""
+    },
+    "soil": {
+      "conditions": "Well-drained, fertile, loamy",
+      "pH": {
+        "min": 6.0,
+        "max": 8.0
+      }
+    },
+    "sun": {
+      "exposure": "Full"
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0.125,
+      "startSpacing": 0,
+      "directSow": "12\"-18\"",
+      "indoorStartTimingDays": 49
+    },
+    "seedling": {
+      "daysToGermination": 17,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 18,
+        "max": 24
+      },
+      "width": {
+        "min": 0,
+        "max": 0
+      },
+      "water": "Dry to Medium",
+      "fertilizer": "Low, once every 2-4 weeks with fish emulsion, blood meal, bone meal"
+    }
+  },
+  "notes": "<p>Semi hardy cool weather short lived perennial/biennial</p><p>Fill a pot to within 1/4 to 1/2 inch of the rim with moist seed starting medium.</p><p>Firm the surface with the back of your fingers, then scatter seeds evenly over the medium.</p><p>Sprinkle a little additional medium over seeds but do not cover fully add a label with the plant name and date.</p><p>Cover the finished pots with plastic and set them in a warm bright place or under lights.</p><p>This plant readily reseeds itself, but volunteer seedlings can easily be removed if not wanted. </p><p></p>"
+},
+  {
+  "plant": "Petunia",
+  "slug": "petunia-hybrida",
+  "url": "https://www.projectpurityseeds.com/store/p366/Shanin-Wild-Petunia-Flower-Seeds.html",
+  "fullName": "Petunia Hybrida",
+  "image": "",
+  "blooms": "",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "",
+    "root": {
+      "depth": {
+        "min": 0,
+        "max": 0
+      },
+      "type": ""
+    },
+    "soil": {
+      "conditions": "",
+      "pH": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "sun": {
+      "exposure": ""
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0,
+      "startSpacing": 0,
+      "directSow": "",
+      "indoorStartTimingDays": 77
+    },
+    "seedling": {
+      "daysToGermination": 12,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 0,
+        "max": 0
+      },
+      "width": {
+        "min": 0,
+        "max": 0
+      },
+      "water": "",
+      "fertilizer": ""
+    }
+  },
+  "notes": "<p>In a germination flat, press the seed into the surface of the soil; this seed needs light to germinate</p><p>As soon as the seedlings can safely be handled, transplant them into individual pots</p><p></p>"
+},
+  {
+  "plant": "Evening Primrose",
+  "slug": "oenothera-lamarckiana",
+  "url": "",
+  "fullName": "Oenothera Lamarckiana",
+  "image": "",
+  "blooms": "",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "",
+    "root": {
+      "depth": {
+        "min": 0,
+        "max": 0
+      },
+      "type": ""
+    },
+    "soil": {
+      "conditions": "",
+      "pH": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "sun": {
+      "exposure": ""
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0,
+      "startSpacing": 0,
+      "directSow": "",
+      "indoorStartTimingDays": 63
+    },
+    "seedling": {
+      "daysToGermination": 0,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 0,
+        "max": 0
+      },
+      "width": {
+        "min": 0,
+        "max": 0
+      },
+      "water": "",
+      "fertilizer": ""
+    }
+  },
+  "notes": "<p></p>"
+},
+  {
+  "plant": "Poppy, Red",
+  "slug": "papaver-rhoeas",
+  "url": "https://www.projectpurityseeds.com/store/p76/Red-Poppy-Flower-Seeds.html",
+  "fullName": "Papaver Rhoeas",
+  "image": "",
+  "blooms": "",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "",
+    "root": {
+      "depth": {
+        "min": 0,
+        "max": 0
+      },
+      "type": ""
+    },
+    "soil": {
+      "conditions": "",
+      "pH": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "sun": {
+      "exposure": ""
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0,
+      "startSpacing": 0,
+      "directSow": "",
+      "indoorStartTimingDays": 49
+    },
+    "seedling": {
+      "daysToGermination": 0,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 0,
+        "max": 0
+      },
+      "width": {
+        "min": 0,
+        "max": 0
+      },
+      "water": "",
+      "fertilizer": ""
+    }
+  },
+  "notes": "<p>Because poppies resent transplanting, sow seeds in biodegradable pots that go in the ground with the plant</p>"
+},
+  {
+  "plant": "Aster",
+  "slug": "callistephus-chinensis",
+  "url": "https://www.westcoastseeds.com/blogs/wcs-academy/how-to-grow-china-asters",
+  "fullName": "Callistephus Chinensis",
+  "image": "",
+  "blooms": "",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "",
+    "root": {
+      "depth": {
+        "min": 0,
+        "max": 0
+      },
+      "type": ""
+    },
+    "soil": {
+      "conditions": "",
+      "pH": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "sun": {
+      "exposure": ""
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0,
+      "startSpacing": 0,
+      "directSow": "",
+      "indoorStartTimingDays": 49
+    },
+    "seedling": {
+      "daysToGermination": 0,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 0,
+        "max": 0
+      },
+      "width": {
+        "min": 0,
+        "max": 0
+      },
+      "water": "",
+      "fertilizer": ""
+    }
+  },
+  "notes": "<p></p>"
+},
+  {
+  "plant": "Cosmos",
+  "slug": "cosmos-bipinnatus",
+  "url": "https://www.projectpurityseeds.com/cosmos.html",
+  "fullName": "Cosmos Bipinnatus",
+  "image": "",
+  "blooms": "",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "",
+    "root": {
+      "depth": {
+        "min": 0,
+        "max": 0
+      },
+      "type": ""
+    },
+    "soil": {
+      "conditions": "",
+      "pH": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "sun": {
+      "exposure": ""
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0,
+      "startSpacing": 0,
+      "directSow": "",
+      "indoorStartTimingDays": 49
+    },
+    "seedling": {
+      "daysToGermination": 0,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 0,
+        "max": 0
+      },
+      "width": {
+        "min": 0,
+        "max": 0
+      },
+      "water": "",
+      "fertilizer": ""
+    }
+  },
+  "notes": "<p></p>"
+}
+  ]

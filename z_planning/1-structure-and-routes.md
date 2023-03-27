@@ -1,9 +1,9 @@
 # Structure & Routes
 
-| Path                     | What                                                                    | Type        |
-|--------------------------|-------------------------------------------------------------------------|-------------|
-| /                        | Permanent redirect to gardening page                                    | Static      |
-| /gardening               | Loads gardening landing page with links to herbs, flowers, soil, etc    | Static      |
-| /gardening/herbs         | Loads all herbs                                                         | ISG & paths |
-| /gardening/herbs/\<slug> | slug to dynamically identify herb, loads individual herb with full text | ISG         |
+| Path                    | What                                                                    | Type        |
+|-------------------------|-------------------------------------------------------------------------|-------------|
+| /                       | Permanent redirect to gardening page                                    | Static      |
+| /gardening              | Loads gardening landing page with links to food, flowers, soil, etc     | Static      |
+| /gardening/food         | Loads all food                                                          | ISG & paths |
+| /gardening/food/\<slug> | slug to dynamically identify food, loads individual food with full text | ISG         |
 

@@ -3,4 +3,6 @@ REFACTOR (and update notes)
 - userReducer take out loading into another reducer
 - userService: userExists, simplify
 - register API:
-    - messages to be more generic
+    - Error messages to be more generic
+- [...nextauth]
+    - Error messages to be more generic

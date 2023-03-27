@@ -1,0 +1,55 @@
+{
+  "plant": "",
+  "slug": "",
+  "url": "",
+  "fullName": "",
+  "image": "",
+  "blooms": "",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "",
+    "root": {
+      "depth": {
+        "min": 0,
+        "max": 0
+      },
+      "type": ""
+    },
+    "soil": {
+      "conditions": "",
+      "pH": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "sun": {
+      "exposure": ""
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0,
+      "startSpacing": 0,
+      "directSow": "",
+      "indoorStartTimingDays": 0
+    },
+    "seedling": {
+      "daysToGermination": 0,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 0,
+        "max": 0
+      },
+      "width": {
+        "min": 0,
+        "max": 0
+      },
+      "water": "",
+      "fertilizer": ""
+    }
+  },
+  "notes": "<p></p>"
+}

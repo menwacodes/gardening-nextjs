@@ -1,0 +1,23 @@
+.container {
+  margin: 0 auto;
+  background-color: #eee;
+  width: 1000px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+
+[class^=planting--] {
+  padding: 15px;
+  font-size: 24px;
+  writing-mode: vertical-lr;
+  display: flex;
+  align-items: center;
+}
+[class^=planting--]:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+/*# sourceMappingURL=plantings.css.map */

@@ -9,7 +9,7 @@ export default async function handler(req, res) {
         const {email, password, firstName} = req.body;
 
         // check to see if user exists
-        if (await userExists(email)) return res.status(422).json({message: "User Exists"});
+        if (await userExists(email)) return res.status(422).json({message: "User Exists", fail: true});
 
         // hash pw
         const hashedPw = await hashPassword(password);
