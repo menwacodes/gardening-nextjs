@@ -4,23 +4,21 @@
     "slug": "osteospermum",
     "url": "https://www.projectpurityseeds.com/store/p165/African-Daisy-Mix-Flower-Seeds.html",
     "fullName": "Osteospermum",
-    "image": "",
+    "image": "osteospermum.jpeg",
     "blooms": "",
-    "wherePlanted": "",
+    "wherePlanted": "Consider in-ground",
     "attributes": {
-      "attracts": "Birds",
+      "attracts": "Bees, Birds",
       "root": {
-        "depth": {
-          "min": 0,
-          "max": 0
-        },
+        "minDepth":  12,
         "type": "fibrous"
       },
+      "seasonality": "Perennial",
       "soil": {
         "conditions": "Well-drained",
         "pH": {
-          "min": 5,
-          "max": 5.5
+          "min": 5.5,
+          "max": 6.5
         }
       },
       "sun": {
@@ -29,7 +27,7 @@
     },
     "lifecycle": {
       "sow": {
-        "plantingDepth": 0,
+        "plantingDepth": 0.25,
         "startSpacing": 9,
         "directSow": "12 inches apart",
         "indoorStartTimingDays": 77
@@ -65,10 +63,7 @@
     "attributes": {
       "attracts": "Bees, Butterflies, Hoverflies, and Predatory Wasps",
       "root": {
-        "depth": {
-          "min": 4,
-          "max": 6
-        },
+        "minDepth":  4,
         "type": ""
       },
       "soil": {
@@ -120,10 +115,7 @@
     "attributes": {
       "attracts": "Honeybees, Bumblebees, Birds, Squirrels",
       "root": {
-        "depth": {
-          "min": 60,
-          "max": 72
-        },
+        "minDepth":  60,
         "type": "taproot"
       },
       "soil": {
@@ -175,10 +167,7 @@
     "attributes": {
       "attracts": "None",
       "root": {
-        "depth": {
-          "min": 6,
-          "max": 8
-        },
+        "minDepth":  6,
         "type": "Shallow"
       },
       "soil": {
@@ -232,10 +221,7 @@
         "Bees, butterflies, hummingbirds, and ladybugs"
       ],
       "root": {
-        "depth": {
-          "min": 6,
-          "max": 8
-        },
+        "minDepth":  6,
         "type": "fibrous"
       },
       "soil": {
@@ -287,10 +273,7 @@
   "attributes": {
     "attracts": "",
     "root": {
-      "depth": {
-        "min": 0,
-        "max": 0
-      },
+      "minDepth":  0,
       "type": ""
     },
     "soil": {
@@ -342,10 +325,7 @@
     "attributes": {
       "attracts": "Butterflies, Bees, hummingbirds",
       "root": {
-        "depth": {
-          "min": 12,
-          "max": 24
-        },
+        "minDepth":  12,
         "type": ""
       },
       "soil": {
@@ -397,10 +377,7 @@
   "attributes": {
     "attracts": "Pollinators",
     "root": {
-      "depth": {
-        "min": 8,
-        "max": 0
-      },
+      "minDepth":  0,
       "type": "Adventitious"
     },
     "soil": {
@@ -452,10 +429,7 @@
   "attributes": {
     "attracts": "Bees, butterflies, hummingbirds, moths, and songbirds",
     "root": {
-      "depth": {
-        "min": 0,
-        "max": 0
-      },
+      "minDepth":  0,
       "type": ""
     },
     "soil": {
@@ -507,10 +481,7 @@
   "attributes": {
     "attracts": "",
     "root": {
-      "depth": {
-        "min": 0,
-        "max": 0
-      },
+      "minDepth":  0,
       "type": ""
     },
     "soil": {
@@ -562,10 +533,7 @@
   "attributes": {
     "attracts": "",
     "root": {
-      "depth": {
-        "min": 0,
-        "max": 0
-      },
+      "minDepth":  0,
       "type": ""
     },
     "soil": {
@@ -617,10 +585,7 @@
   "attributes": {
     "attracts": "",
     "root": {
-      "depth": {
-        "min": 0,
-        "max": 0
-      },
+      "minDepth":  0,
       "type": ""
     },
     "soil": {
@@ -672,10 +637,7 @@
   "attributes": {
     "attracts": "",
     "root": {
-      "depth": {
-        "min": 0,
-        "max": 0
-      },
+      "minDepth":  0,
       "type": ""
     },
     "soil": {
@@ -725,14 +687,118 @@
   "blooms": "",
   "wherePlanted": "",
   "attributes": {
-    "attracts": "",
+    "attracts": "Bees, Birds, and Butterflies",
     "root": {
-      "depth": {
+      "minDepth": 12,
+      "type": "Taproot"
+    },
+    "seasonality": "Annual",
+    "soil": {
+      "conditions": "Excessively drained.",
+      "pH": {
+        "min": 6.6,
+        "max": 7.8
+      }
+    },
+    "sun": {
+      "exposure": "Full"
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0,
+      "startSpacing": 0,
+      "directSow": "15\" to 18\"",
+      "indoorStartTimingDays": 49
+    },
+    "seedling": {
+      "daysToGermination": 15,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 36,
+        "max": 60
+      },
+      "width": {
         "min": 0,
         "max": 0
       },
+      "water": "Dry to Medium",
+      "fertilizer": ""
+    }
+  },
+  "notes": "<p>Drought tolerant, Tolerates poor soil.</p><p>Suitable in 3 gallon container or larger</p><p>Cosmos and tomatoes get along like old friends</p><p></p>"
+},
+  {
+  "plant": "Echinacea",
+  "slug": "echinacea-purpurea",
+  "url": "",
+  "fullName": "Echinacea Purpurea",
+  "image": "echinacea-purple-coneflower.jpeg",
+  "blooms": "Summer to fall",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "Butterflies, birds",
+    "root": {
+      "minDepth":  72,
+      "type": "taproot"
+    },
+    "seasonality": "Perennial",
+    "soil": {
+      "conditions": "Well-drained, moist loam but is adaptable to various soil types",
+      "pH": {
+        "min": 6.0,
+        "max": 8.0
+      }
+    },
+    "sun": {
+      "exposure": "6 hours full, 2-6 hours partial"
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0.125,
+      "startSpacing": 0,
+      "directSow": "12-15\" apart",
+      "indoorStartTimingDays": 49
+    },
+    "seedling": {
+      "daysToGermination": 16,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 0,
+        "max": 36
+      },
+      "width": {
+        "min": 0,
+        "max": 0
+      },
+      "water": "",
+      "fertilizer": ""
+    }
+  },
+  "notes": "<p>If starting indoors, provide total darkness and a soil temperature of 21-25°C. Once sprouts appear, provide bright light</p><p></p><p>Sow outdoors in spring, or late summer (at least 12 weeks before first frost)</p><p>Sow seeds evenly and thinly and cover with 1/4\" fine soil.  First lightly and keep evenly moist</p>"
+},
+  {
+  "plant": "Columbine",
+  "slug": "",
+  "url": "",
+  "fullName": "",
+  "image": "",
+  "blooms": "May-June",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "",
+    "root": {
+      "minDepth": 0,
       "type": ""
     },
+    "seasonality": "Perennial",
     "soil": {
       "conditions": "",
       "pH": {
@@ -746,20 +812,20 @@
   },
   "lifecycle": {
     "sow": {
-      "plantingDepth": 0,
-      "startSpacing": 0,
+      "plantingDepth": 0.25,
+      "startSpacing": 0.5,
       "directSow": "",
       "indoorStartTimingDays": 49
     },
     "seedling": {
-      "daysToGermination": 0,
-      "thinning": "",
+      "daysToGermination": 40,
+      "thinning": "Thin to 10\"",
       "transplanting": ""
     },
     "grow": {
       "height": {
-        "min": 0,
-        "max": 0
+        "min": 24,
+        "max": 30
       },
       "width": {
         "min": 0,
@@ -769,6 +835,112 @@
       "fertilizer": ""
     }
   },
-  "notes": "<p></p>"
+  "notes": "<p>Mix the seed with moist sand and store it in the refrigerator for 60 days before direct sowing after the last frost</p>"
+},
+  {
+  "plant": "Milkweed Butterfly",
+  "slug": "aslepias-tuberosa",
+  "url": "https://www.projectpurityseeds.com/store/p255/Butterfly-Weed-Flower-Seeds.html",
+  "fullName": "Aslepias Tuberosa",
+  "image": "milkweed-butterfly.jpeg",
+  "blooms": "June-Frost",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "Butterflies, hummingbirds, bees",
+    "root": {
+      "minDepth": 0,
+      "type": ""
+    },
+    "seasonality": "Says both",
+    "soil": {
+      "conditions": "",
+      "pH": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "sun": {
+      "exposure": "Full"
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0.125,
+      "startSpacing": 0,
+      "directSow": "",
+      "indoorStartTimingDays": 0
+    },
+    "seedling": {
+      "daysToGermination": 0,
+      "thinning": "",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 24,
+        "max": 36
+      },
+      "width": {
+        "min": 0,
+        "max": 0
+      },
+      "water": "",
+      "fertilizer": ""
+    }
+  },
+  "notes": "<p>For spring planting, mix the seeds with moist sand and refrigerate for 30 days before direct sowing</p><p>Plant in biodegradable pots: Seedlings usually do not survive transplanting, since they resent any disturbance of their roots</p><p>Monarch butterflies lay eggs on this plant and the resulting larvae (caterpillars) use the plant leaves as a food source.</p><p>Consider wearing gloves when working with these plants because the milky sap is poisonous if ingested and can be toxic to human skin.</p><p>Milkweed contains toxic alkaloids and cardenolides, which can cause nausea and vomiting in low doses, and death in high doses</p>"
+},
+  {
+  "plant": "Lupine Russell Hybrid",
+  "slug": "lupine-polyphyllus",
+  "url": "",
+  "fullName": "Lupine Polyphyllus",
+  "image": "",
+  "blooms": "Late spring to early summer",
+  "wherePlanted": "",
+  "attributes": {
+    "attracts": "Bees, butterflies, hummingbirds",
+    "root": {
+      "minDepth": 0,
+      "type": "Taproot"
+    },
+    "seasonality": "Short-lived Perennial / Annual",
+    "soil": {
+      "conditions": "",
+      "pH": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "sun": {
+      "exposure": ""
+    }
+  },
+  "lifecycle": {
+    "sow": {
+      "plantingDepth": 0.5,
+      "startSpacing": 0,
+      "directSow": "",
+      "indoorStartTimingDays": 0
+    },
+    "seedling": {
+      "daysToGermination": 0,
+      "thinning": "6-12\"",
+      "transplanting": ""
+    },
+    "grow": {
+      "height": {
+        "min": 12,
+        "max": 36
+      },
+      "width": {
+        "min": 0,
+        "max": 0
+      },
+      "water": "",
+      "fertilizer": ""
+    }
+  },
+  "notes": "<p>To soften the hard coating on these seeds, rub them lightly with sandpaper then soak them in 180 degrees F water overnight before sowing.</p><p> You can also sow seeds in the spring 4 to 6 weeks before your average last frost date, but your plants will bloom later in the summer.</p><p>Plant container-grown plants in the spring after the danger of frost has passed</p><p>Space plants about 2 to 3 feet apart, and loosen the soil deeply to accommodate the long taproots</p>"
 }
   ]

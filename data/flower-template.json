@@ -9,12 +9,10 @@
   "attributes": {
     "attracts": "",
     "root": {
-      "depth": {
-        "min": 0,
-        "max": 0
-      },
+      "minDepth": 0,
       "type": ""
     },
+    "seasonality": "",
     "soil": {
       "conditions": "",
       "pH": {

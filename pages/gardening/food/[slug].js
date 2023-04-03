@@ -96,6 +96,9 @@ const FoodById = ({food}) => {
                     <article className={classes.notes} dangerouslySetInnerHTML={{__html: food.notes}}/>
                 </>
             }
+            {food.url.length > 0 &&
+            <p>See also <a href={ food.url } target={"_blank"} rel="noreferrer">{food.url}</a></p>
+            }
 
         </div>
     );

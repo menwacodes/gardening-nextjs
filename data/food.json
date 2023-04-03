@@ -95,7 +95,7 @@
   },
   {
     "slug": "chicago-pickling-cucumber",
-    "url": "",
+    "url": "https://www.projectpurityseeds.com/store/p380/National-Pickling-Cucumber-Vegetable-Seeds.html",
     "plant": "Cucumber - Chicago",
     "fullName": "Chicago Pickling Cucumber",
     "image": "chicago-cucumber.jpeg",
@@ -125,7 +125,7 @@
         "plantingDepth": 0.75,
         "startSpacing": 2,
         "directSow": "",
-        "indoorStartTimingDays": 0
+        "indoorStartTimingDays": 49
       },
       "seedling": {
         "daysToGermination": 10,
@@ -144,7 +144,7 @@
   },
   {
     "slug": "wisconsin-smr-58",
-    "url": "https://www.wildroseheritageseed.com/store/p307/Cucumber_-_Wisconsin_SMR_58.html",
+    "url": "https://www.projectpurityseeds.com/store/p113/Wisconsin-SMR-58-Cucumber-Vegetable-Seeds.html",
     "plant": "Cucumber - Wisconsin",
     "daysToHarvest": 64,
     "fullName": "Wisconsin SMR 58",
@@ -176,7 +176,7 @@
         "plantingDepth": 0.75,
         "startSpacing": 2,
         "directSow": "6 seeds per hill once all danger of frost has passed",
-        "indoorStartTimingDays": 10
+        "indoorStartTimingDays": 49
       },
       "seedling": {
         "daysToGermination": 10,

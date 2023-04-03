@@ -1,13 +1,9 @@
 .container {
     margin: 0 auto;
     background-color: #eee;
-    width: 1000px;
-    height: 500px;
+    max-width: 700px;
 
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr;
-    //column-gap: 5px;
+    display: flex;
     justify-content: center;
 
 }
@@ -16,10 +12,25 @@
     padding: 15px;
     font-size: 24px;
     writing-mode: vertical-lr;
-    display: flex;
-    align-items: center;
 
     &:not(:last-child) {
         border-right: 1px solid black;
+    }
+}
+
+.u-center-text {
+    text-align: center;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+[class^="row--"] {
+    padding: 15px;
+    font-size: 24px;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid black;
     }
 }

@@ -1,11 +1,8 @@
 .container {
   margin: 0 auto;
   background-color: #eee;
-  width: 1000px;
-  height: 500px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr;
+  max-width: 700px;
+  display: flex;
   justify-content: center;
 }
 
@@ -13,11 +10,25 @@
   padding: 15px;
   font-size: 24px;
   writing-mode: vertical-lr;
-  display: flex;
-  align-items: center;
 }
 [class^=planting--]:not(:last-child) {
   border-right: 1px solid black;
+}
+
+.u-center-text {
+  text-align: center;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+[class^=row--] {
+  padding: 15px;
+  font-size: 24px;
+}
+[class^=row--]:not(:last-child) {
+  border-bottom: 1px solid black;
 }
 
 /*# sourceMappingURL=plantings.css.map */
