@@ -1,0 +1,14 @@
+.button {
+  font: inherit;
+  font-size: 1.4rem;
+  border: none;
+  background-color: #37b24d;
+  color: #d7f0db;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 2rem;
+  transition: transform 0.2s;
+}
+
+/*# sourceMappingURL=BasicButton.module.css.map */

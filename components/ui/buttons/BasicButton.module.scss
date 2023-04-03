@@ -1,0 +1,14 @@
+@import "../../../styles/base/colors";
+
+.button {
+    font: inherit;
+    font-size: 1.4rem;
+    border: none;
+    background-color: $color-primary;
+    color: $color-grey-light-1;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2rem;
+    transition: transform .2s;
+}

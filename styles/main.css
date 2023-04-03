@@ -67,6 +67,10 @@ a {
   color: inherit;
 }
 
+.main-content {
+  padding: 0 2rem 2rem;
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -104,8 +108,17 @@ ul {
   list-style-type: none;
 }
 
-.main-content {
-  padding: 0 2rem 2rem;
+.center-text {
+  text-align: center;
+}
+
+.heading-1 {
+  font-size: 3.6rem;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .flex-center {
@@ -113,13 +126,10 @@ ul {
   justify-content: center;
 }
 
-.center-text {
-  text-align: center;
-}
-
-.container {
-  max-width: 80%;
-  margin: 0 auto;
+.page-buttons {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */

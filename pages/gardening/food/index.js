@@ -1,9 +1,10 @@
+import BasicButton from "@/components/ui/buttons/BasicButton";
 import {useState} from "react";
 import classes from "../GardeningHome.module.scss";
 
 import FoodCard from "@/components/gardening/food/FoodCard";
 
-const GardeningHomePage = ({allFood, count}) => {
+const GardeningHomePage = ({ allFood, count }) => {
     const [foodItems, setFoodItems] = useState(allFood.sort((a, b) => a.plant > b.plant ? 1 : -1));
     //food.sort((a, b) => {return a.plant > b.plant ? 1 : -1})
 
@@ -19,22 +20,23 @@ const GardeningHomePage = ({allFood, count}) => {
         setFoodItems(newFoodItems);
     };
 
-    const foodCards = foodItems.map(foodItem => <FoodCard key={foodItem.slug} food={foodItem}/>);
+    const foodCards = foodItems.map(foodItem => <FoodCard key={ foodItem.slug } food={ foodItem }/>);
 
     return (
-        <>
-            <button onClick={() => {
-                sortFoodItems("harvest");
-            }}>Sort by Days to Harvest
-            </button>
-            <button onClick={() => {
-                sortFoodItems("name");
-            }}>Sort by Name
-            </button>
-            <div className={classes.food_grid}>
-                {foodCards}
+        <article className={ classes.food__container }>
+            <h1 className={ "heading-1 center-text" }>Food</h1>
+            <div className={ "page-buttons" }>
+                <BasicButton onClick={ () => sortFoodItems("harvest") }>
+                    Sort by Days to Harvest
+                </BasicButton>
+                <BasicButton onClick={ () => sortFoodItems("name") }>
+                    Sort by Name
+                </BasicButton>
             </div>
-        </>
+            <div className={ classes.food_grid }>
+                { foodCards }
+            </div>
+        </article>
     );
 };
 
@@ -42,7 +44,7 @@ const GardeningHomePage = ({allFood, count}) => {
 export async function getStaticProps() {
     const response = await fetch(`http://localhost:3000/api/gardening/food`);
     const data = await response.json();
-    return {props: {allFood: data.data, count: data.count}};
+    return { props: { allFood: data.data, count: data.count } };
 }
 
 export default GardeningHomePage;
