@@ -121,15 +121,26 @@ ul {
   margin: 0 auto;
 }
 
-.flex-center {
-  display: flex;
-  justify-content: center;
-}
-
 .page-buttons {
   display: flex;
   gap: 2rem;
   margin: 1rem 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-start {
+  justify-content: flex-start;
 }
 
 /*# sourceMappingURL=main.css.map */

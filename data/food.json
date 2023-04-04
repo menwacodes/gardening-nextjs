@@ -103,7 +103,8 @@
       "plantType": "vine",
       "root": {
         "depth": {
-          "min": 12
+          "min": 12,
+          "max": 18
         },
         "type": "adventitious"
       },
@@ -713,7 +714,7 @@
       "root": {
         "depth": {
           "min": 20,
-          "max": 0
+          "max": 24
         },
         "type": "fibrous"
       },

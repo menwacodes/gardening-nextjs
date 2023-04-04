@@ -12,6 +12,14 @@ const FoodCard = ({food}) => {
                 <div className={classes.card__content}>
                     <p className={classes.card__title}>{food.plant}</p>
                     <ul className={classes.card__items}>
+
+                        <li className={classes.card__item}>
+                            <svg className={`${classes.card__icon} ${classes.rotate90}`}>
+                                <use href={"/img/sprite.svg#icon-horiz-ruler"}></use>
+                            </svg>
+                            <span>Root Depth: {food.attributes.root.depth.min}-{food.attributes.root.depth.max}&quot;</span>
+                        </li>
+
                         <li className={classes.card__item}>
                             <svg className={`${classes.card__icon} ${classes.rotate90}`}>
                                 <use href={"/img/sprite.svg#icon-horiz-ruler"}></use>

@@ -25,7 +25,7 @@ const GardeningHomePage = ({ allFood, count }) => {
     return (
         <article className={ classes.food__container }>
             <h1 className={ "heading-1 center-text" }>Food</h1>
-            <div className={ "page-buttons" }>
+            <div className={ "page-buttons flex-end" }>
                 <BasicButton onClick={ () => sortFoodItems("harvest") }>
                     Sort by Days to Harvest
                 </BasicButton>
@@ -34,6 +34,8 @@ const GardeningHomePage = ({ allFood, count }) => {
                 </BasicButton>
             </div>
             <div className={ classes.food_grid }>
+
+
                 { foodCards }
             </div>
         </article>
