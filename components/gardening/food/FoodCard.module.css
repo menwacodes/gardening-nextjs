@@ -25,7 +25,7 @@
 }
 .card__title {
   font-size: 2.4rem;
-  color: red;
+  color: #16471f;
   font-weight: 600;
   text-align: center;
   margin-bottom: 1.6rem;
@@ -45,7 +45,11 @@
 .card__icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: dodgerblue;
+  color: #16471f;
+}
+.card__text {
+  color: #3a3f3a;
+  font-size: 1.6rem;
 }
 
 .rotate90 {

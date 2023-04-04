@@ -1,61 +1,69 @@
+@import "../../../styles/base/colors";
+
 .card {
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, .1);
-  width: 30rem;
-  border-radius: 9px;
-  transition: all .2s;
-  position: relative;
-  overflow: hidden;
-
-  &:hover {
-    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, .15);
-    filter: saturate(1.05);
-
-
-    .card__img {
-      transform: scale(1.1);
-    }
-  }
-  &__img {
-    width: 100%;
-    height: 20rem;
-transition: all .2s;
-  }
-
-  &__content {
-    padding: 1.2rem 2.4rem 1.2rem;
-  }
-
-  &__title {
-    font-size: 2.4rem;
-    color: red;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 1.6rem;
-  }
-
-  &__items {
-    list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap: 1.6rem;
-  }
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, .1);
+    width: 30rem;
+    border-radius: 9px;
+    transition: all .2s;
+    position: relative;
+    overflow: hidden;
 
-  &__item {
-    font-size: 1.8rem;
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
-  }
+    &:hover {
+        box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, .15);
+        filter: saturate(1.05);
 
-  &__icon {
-    height: 2.4rem;
-    width: 2.4rem;
-    color: dodgerblue;
-  }
+
+        .card__img {
+            transform: scale(1.1);
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: 20rem;
+        transition: all .2s;
+    }
+
+    &__content {
+        padding: 1.2rem 2.4rem 1.2rem;
+    }
+
+    &__title {
+        font-size: 2.4rem;
+        color: $color-primary-dark;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 1.6rem;
+    }
+
+    &__items {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+
+    &__item {
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+    }
+
+    &__icon {
+        height: 2.4rem;
+        width: 2.4rem;
+        color: $color-primary-dark;
+    }
+
+    &__text {
+        color: $color-grey-dark-2;
+        font-size: 1.6rem;
+    }
 }
 
 .rotate90 {
-  transform: rotate(90deg);
+    transform: rotate(90deg);
 }

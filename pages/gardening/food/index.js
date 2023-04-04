@@ -6,7 +6,7 @@ import FoodCard from "@/components/gardening/food/FoodCard";
 
 const GardeningHomePage = ({ allFood, count }) => {
     const [foodItems, setFoodItems] = useState(allFood.sort((a, b) => a.plant > b.plant ? 1 : -1));
-    //food.sort((a, b) => {return a.plant > b.plant ? 1 : -1})
+    const [showMaintenance, setShowMaintenance] = useState(false);
 
     const sortFoodItems = sortBy => {
         let newFoodItems;
@@ -20,22 +20,27 @@ const GardeningHomePage = ({ allFood, count }) => {
         setFoodItems(newFoodItems);
     };
 
-    const foodCards = foodItems.map(foodItem => <FoodCard key={ foodItem.slug } food={ foodItem }/>);
+    const showTypeHandler = () => setShowMaintenance(!showMaintenance)
+
+    const foodCards = foodItems.map(foodItem => <FoodCard key={ foodItem.slug } food={ foodItem } showMaintenance={showMaintenance}/>);
 
     return (
         <article className={ classes.food__container }>
             <h1 className={ "heading-1 center-text" }>Food</h1>
-            <div className={ "page-buttons flex-end" }>
-                <BasicButton onClick={ () => sortFoodItems("harvest") }>
-                    Sort by Days to Harvest
+            <div className={ "food-buttons" }>
+                <BasicButton onClick={showTypeHandler}>
+                    {showMaintenance ? "Planting Deets" : "Maintenance Deets"}
                 </BasicButton>
+                { showMaintenance &&
+                    <BasicButton onClick={ () => sortFoodItems("harvest") }>
+                        Sort by Days to Harvest
+                    </BasicButton>
+                }
                 <BasicButton onClick={ () => sortFoodItems("name") }>
                     Sort by Name
                 </BasicButton>
             </div>
             <div className={ classes.food_grid }>
-
-
                 { foodCards }
             </div>
         </article>

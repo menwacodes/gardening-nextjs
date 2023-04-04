@@ -121,12 +121,6 @@ ul {
   margin: 0 auto;
 }
 
-.page-buttons {
-  display: flex;
-  gap: 2rem;
-  margin: 1rem 0;
-}
-
 .flex {
   display: flex;
 }
@@ -141,6 +135,25 @@ ul {
 
 .flex-start {
   justify-content: flex-start;
+}
+
+.food-buttons {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0;
+  justify-content: flex-end;
+}
+
+@media (max-width: 57rem) {
+  .food-buttons {
+    justify-content: center;
+  }
+}
+@media (max-width: 31rem) {
+  .food-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
