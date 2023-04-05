@@ -1,20 +1,30 @@
+import FlowerCard from "@/components/gardening/flowers/FlowerCard";
 import BasicButton from "@/components/ui/buttons/BasicButton";
 import {useState} from "react";
 import classes from "../GardeningHome.module.scss";
 
 const FlowersHomePage = ({ allFlowers, count }) => {
     // sort flowers and put into state
-    const [flowerItems, setFlowerItems] = useState(allFlowers.sort((a, b) => a.plant > b.plant ? 1 : -1))
+    const [flowerItems, setFlowerItems] = useState(allFlowers.sort((a, b) => a.plant > b.plant ? 1 : -1));
 
     // maintenance mode should be default after testing and everything is planted
     const [showMaintenance, setShowMaintenance] = useState(false);
 
-
+    const flowerCards = flowerItems.map(flower =>
+        <FlowerCard
+            key={ flower.slug }
+            flower={ flower }
+            showMaintenance={ showMaintenance }
+        />
+    );
 
     return (
-        <>
-            flower page
-        </>
+        <article className={classes.food__container}>
+            <h1 className={"heading-1 center-text"}>Flowers</h1>
+            <div className={classes.food_grid}>
+                {flowerCards}
+            </div>
+        </article>
     );
 };
 

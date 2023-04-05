@@ -22,16 +22,22 @@ const FoodHomePage = ({ allFood, count }) => {
         setFoodItems(newFoodItems);
     };
 
-    const showTypeHandler = () => setShowMaintenance(!showMaintenance)
+    const showTypeHandler = () => setShowMaintenance(!showMaintenance);
 
-    const foodCards = foodItems.map(foodItem => <FoodCard key={ foodItem.slug } food={ foodItem } showMaintenance={showMaintenance}/>);
+    const foodCards = foodItems.map(foodItem =>
+        <FoodCard
+            key={ foodItem.slug }
+            food={ foodItem }
+            showMaintenance={ showMaintenance }
+        />
+    );
 
     return (
         <article className={ classes.food__container }>
             <h1 className={ "heading-1 center-text" }>Food</h1>
             <div className={ "food-buttons" }>
-                <BasicButton onClick={showTypeHandler}>
-                    {showMaintenance ? "Planting Deets" : "Maintenance Deets"}
+                <BasicButton onClick={ showTypeHandler }>
+                    { showMaintenance ? "Planting Deets" : "Maintenance Deets" }
                 </BasicButton>
                 { showMaintenance &&
                     <BasicButton onClick={ () => sortFoodItems("harvest") }>

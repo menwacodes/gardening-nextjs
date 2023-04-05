@@ -7,9 +7,13 @@ const FoodCard = ({ food, showMaintenance }) => {
     return (
         <Link href={ `/gardening/food/${ food.slug }` }>
             <article className={ classes.card }>
-                <Image className={ classes.card__img } src={ `/img/gardening/${ food.image }` } width={ "1920" }
-                       height={ "1080" }
-                       alt={ "" }/>
+                <Image
+                    className={ classes.card__img }
+                    src={ `/img/gardening/${ food.image }` }
+                    alt={ "" }
+                    width={ "1920" }
+                    height={ "1080" }
+                />
                 <div className={ classes.card__content }>
                     <p className={ classes.card__title }>{ food.plant }</p>
                     <ul className={ classes.card__items }>
@@ -24,8 +28,9 @@ const FoodCard = ({ food, showMaintenance }) => {
                                     <svg className={ `${ classes.card__icon } ${ classes.rotate90 }` }>
                                         <use href={ "/img/sprite.svg#icon-horiz-ruler" }></use>
                                     </svg>
-                                    <span
-                                        className={ classes.card__text }>Root Depth: { food.attributes.root.depth.min }-{ food.attributes.root.depth.max }&quot;</span>
+                                    <span className={ classes.card__text }>
+                                        Root Depth: { food.attributes.root.depth.min }-{ food.attributes.root.depth.max }&quot;
+                                    </span>
                                 </li>
                                 <li className={ classes.card__item }>
                                     <svg className={ `${ classes.card__icon } ${ classes.rotate90 }` }>

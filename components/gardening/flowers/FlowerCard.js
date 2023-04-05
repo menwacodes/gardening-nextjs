@@ -1,12 +1,78 @@
 import Image from "next/image";
 import classes from "../food/FoodCard.module.scss";
 
-const FlowerCard = ({flowers}) => {
-  return (
-    <>
+const FlowerCard = ({ flower, showMaintenance }) => {
+    return (
+        <article className={ classes.card }>
+            <Image
+                className={ classes.card__img }
+                src={ `/img/gardening/${ flower.image }` }
+                alt={ "" }
+                width={ "1920" }
+                height={ "1000" }
+            />
+            <div className={ classes.card__content }>
+                <p className={ classes.card__title }>{ flower.plant }</p>
+                <ul className={ classes.card__items }>
+                    {/*
+                                PLANTING ITEMS
+                     */ }
 
-    </>
-  )
-}
+                    { !showMaintenance &&
+                        <>
+                            <li className={ classes.card__item }>
+                                <svg className={ `${ classes.card__icon } ${ classes.rotate90 }` }>
+                                    <use href={ "/img/sprite.svg#icon-horiz-ruler" }></use>
+                                </svg>
+                                <span className={ classes.card__text }>
+                                    Root Depth: { flower.attributes.root.minDepth }&quot;
+                                </span>
+                            </li>
+                            <li className={ classes.card__item }>
+                                <svg className={ `${ classes.card__icon } ${ classes.rotate90 }` }>
+                                    <use href={ "/img/sprite.svg#icon-horiz-ruler" }></use>
+                                </svg>
+                                <span className={ classes.card__text }>
+                                    Planting Depth: { flower.lifecycle.sow.plantingDepth }&quot;
+                                </span>
+                            </li>
+                            <li className={ classes.card__item }>
+                                <svg className={ classes.card__icon }>
+                                    <use href={ "/img/sprite.svg#icon-horiz-ruler" }></use>
+                                </svg>
+                                <span className={ classes.card__text }>
+                                    Start Spacing: { flower.lifecycle.sow.startSpacing }&quot;
+                                </span>
+                            </li>
+                            <li className={ classes.card__item }>
+                                <svg className={ classes.card__icon }>
+                                    <use href={ "/img/sprite.svg#icon-horiz-ruler" }></use>
+                                </svg>
+                                <span className={ classes.card__text }>
+                                    Direct Sow: { flower.lifecycle.sow.directSow }
+                                </span>
+                            </li>
+                            {
+                                flower.wherePlanted &&
+                                <li className={ classes.card__item }>
 
-export default FlowerCard
+                                <span className={ classes.card__text }>
+                                    Where: { flower.wherePlanted }
+                                </span>
+                            </li>
+                            }
+                        </>
+
+                    }
+
+                    {/*
+                                MAINTENANCE ITEMS
+                     */ }
+
+                </ul>
+            </div>
+        </article>
+    );
+};
+
+export default FlowerCard;

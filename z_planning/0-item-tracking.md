@@ -1,4 +1,4 @@
-1. [ ] Layout with rough nav - See hosukai for example
+1. [x] Layout with rough nav - See hosukai for example
 2. [ ] Flower card for landing
    1. Borrow from food card for styling
    2. Rename styling card to be more generic
