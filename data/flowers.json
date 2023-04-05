@@ -10,7 +10,7 @@
     "attributes": {
       "attracts": "Bees, Birds",
       "root": {
-        "minDepth":  12,
+        "minDepth": 12,
         "type": "fibrous"
       },
       "seasonality": "Perennial",
@@ -63,7 +63,7 @@
     "attributes": {
       "attracts": "Bees, Butterflies, Hoverflies, and Predatory Wasps",
       "root": {
-        "minDepth":  4,
+        "minDepth": 4,
         "type": ""
       },
       "soil": {
@@ -115,7 +115,7 @@
     "attributes": {
       "attracts": "Honeybees, Bumblebees, Birds, Squirrels",
       "root": {
-        "minDepth":  60,
+        "minDepth": 60,
         "type": "taproot"
       },
       "soil": {
@@ -167,7 +167,7 @@
     "attributes": {
       "attracts": "None",
       "root": {
-        "minDepth":  6,
+        "minDepth": 6,
         "type": "Shallow"
       },
       "soil": {
@@ -183,7 +183,7 @@
     },
     "lifecycle": {
       "sow": {
-        "plantingDepth": .25,
+        "plantingDepth": 0.25,
         "startSpacing": 0,
         "directSow": "Not recommended",
         "indoorStartTimingDays": 0
@@ -221,7 +221,7 @@
         "Bees, butterflies, hummingbirds, and ladybugs"
       ],
       "root": {
-        "minDepth":  6,
+        "minDepth": 6,
         "type": "fibrous"
       },
       "soil": {
@@ -263,57 +263,57 @@
     "notes": "<p>Best started indoors, surface sown to provide germination light</p><p>Germination in 7-10 days</p><p>Due to the possible allelopathic effects, it’s probably best to plant marigolds and vegetables in separate beds</p>"
   },
   {
-  "plant": "Marigold Sparky",
-  "slug": "tagetes-patula",
-  "url": "",
-  "fullName": "Tagetes Patula",
-  "image": "",
-  "blooms": "",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "",
-    "root": {
-      "minDepth":  0,
-      "type": ""
-    },
-    "soil": {
-      "conditions": "",
-      "pH": {
-        "min": 0,
-        "max": 0
+    "plant": "Marigold Sparky",
+    "slug": "tagetes-patula",
+    "url": "",
+    "fullName": "Tagetes Patula",
+    "image": "",
+    "blooms": "",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "",
+      "root": {
+        "minDepth": 0,
+        "type": ""
+      },
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sun": {
+        "exposure": ""
       }
     },
-    "sun": {
-      "exposure": ""
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0,
-      "startSpacing": 0,
-      "directSow": "",
-      "indoorStartTimingDays": 0
-    },
-    "seedling": {
-      "daysToGermination": 0,
-      "thinning": "",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 0,
-        "max": 0
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0,
+        "startSpacing": 0,
+        "directSow": "",
+        "indoorStartTimingDays": 0
       },
-      "width": {
-        "min": 0,
-        "max": 0
+      "seedling": {
+        "daysToGermination": 0,
+        "thinning": "",
+        "transplanting": ""
       },
-      "water": "",
-      "fertilizer": ""
-    }
+      "grow": {
+        "height": {
+          "min": 0,
+          "max": 0
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "",
+        "fertilizer": ""
+      }
+    },
+    "notes": "<p></p>"
   },
-  "notes": "<p></p>"
-},
   {
     "plant": "Zinnia",
     "slug": "zinnia-elegans",
@@ -325,7 +325,7 @@
     "attributes": {
       "attracts": "Butterflies, Bees, hummingbirds",
       "root": {
-        "minDepth":  12,
+        "minDepth": 12,
         "type": ""
       },
       "soil": {
@@ -367,580 +367,580 @@
     "notes": "<p>Needs light to germinate</p><p>Requires full sun</p><p>Direct sowing is preferable</p><p>Sensitive to root disturbance, be especially careful when transplanting</p><p>Add garden compost to the soil if it is heavy or infertile</p><p>Min day temp: 16C</p><p>Sow a round of seeds every week or so for several weeks to extend the flowering period</p>"
   },
   {
-  "plant": "Candytuft Umbellata",
-  "slug": "iberis-sempervirens",
-  "url": "https://plants.ces.ncsu.edu/plants/iberis-sempervirens/",
-  "fullName": "Iberis Sempervirens",
-  "image": "",
-  "blooms": "Late spring / early summer",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "Pollinators",
-    "root": {
-      "minDepth":  0,
-      "type": "Adventitious"
-    },
-    "soil": {
-      "conditions": "Clay, Silt, Sand",
-      "pH": {
-        "min": 6.0,
-        "max": 7.3
+    "plant": "Candytuft Umbellata",
+    "slug": "iberis-sempervirens",
+    "url": "https://plants.ces.ncsu.edu/plants/iberis-sempervirens/",
+    "fullName": "Iberis Sempervirens",
+    "image": "",
+    "blooms": "Late spring / early summer",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "Pollinators",
+      "root": {
+        "minDepth": 0,
+        "type": "Adventitious"
+      },
+      "soil": {
+        "conditions": "Clay, Silt, Sand",
+        "pH": {
+          "min": 6.0,
+          "max": 7.3
+        }
+      },
+      "sun": {
+        "exposure": "Full"
       }
     },
-    "sun": {
-      "exposure": "Full"
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0,
-      "startSpacing": 0,
-      "directSow": "6\" to 9\" apart",
-      "indoorStartTimingDays": 49
-    },
-    "seedling": {
-      "daysToGermination": 18,
-      "thinning": "",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 6,
-        "max": 12
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0,
+        "startSpacing": 0,
+        "directSow": "6\" to 9\" apart",
+        "indoorStartTimingDays": 49
       },
-      "width": {
-        "min": 6,
-        "max": 18
+      "seedling": {
+        "daysToGermination": 18,
+        "thinning": "",
+        "transplanting": ""
       },
-      "water": "Moist to slightly dry",
-      "fertilizer": "Medium"
-    }
+      "grow": {
+        "height": {
+          "min": 6,
+          "max": 12
+        },
+        "width": {
+          "min": 6,
+          "max": 18
+        },
+        "water": "Moist to slightly dry",
+        "fertilizer": "Medium"
+      }
+    },
+    "notes": "<p>Candytuft works well as an accent, border planting, or along walkways. It is attractive as a groundcover, cascading over the edge of raised beds or containers, and sprawling over a rock wall.</p><p>Lime can be added to adjust soil</p><p>If growing indoors, maintain 18°-21°C within growing medium</p><p>Trim lightly after blooming</p><p></p><p></p><p></p>"
   },
-  "notes": "<p>Candytuft works well as an accent, border planting, or along walkways. It is attractive as a groundcover, cascading over the edge of raised beds or containers, and sprawling over a rock wall.</p><p>Lime can be added to adjust soil</p><p>If growing indoors, maintain 18°-21°C within growing medium</p><p>Trim lightly after blooming</p><p></p><p></p><p></p>"
-},
   {
-  "plant": "Sweet William",
-  "slug": "dianthus-barbatus",
-  "url": "https://www.projectpurityseeds.com/store/p521/Holborn-Glory-Sweet-Williams-Flower-Seeds.html",
-  "fullName": "Dianthus Barbatus",
-  "image": "sweet-william.jpeg",
-  "blooms": "Late Spring to Summer",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "Bees, butterflies, hummingbirds, moths, and songbirds",
-    "root": {
-      "minDepth":  0,
-      "type": ""
-    },
-    "soil": {
-      "conditions": "Well-drained, fertile, loamy",
-      "pH": {
-        "min": 6.0,
-        "max": 8.0
+    "plant": "Sweet William",
+    "slug": "dianthus-barbatus",
+    "url": "https://www.projectpurityseeds.com/store/p521/Holborn-Glory-Sweet-Williams-Flower-Seeds.html",
+    "fullName": "Dianthus Barbatus",
+    "image": "sweet-william.jpeg",
+    "blooms": "Late Spring to Summer",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "Bees, butterflies, hummingbirds, moths, and songbirds",
+      "root": {
+        "minDepth": 0,
+        "type": ""
+      },
+      "soil": {
+        "conditions": "Well-drained, fertile, loamy",
+        "pH": {
+          "min": 6.0,
+          "max": 8.0
+        }
+      },
+      "sun": {
+        "exposure": "Full"
       }
     },
-    "sun": {
-      "exposure": "Full"
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0.125,
-      "startSpacing": 0,
-      "directSow": "12\"-18\"",
-      "indoorStartTimingDays": 49
-    },
-    "seedling": {
-      "daysToGermination": 17,
-      "thinning": "",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 18,
-        "max": 24
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.125,
+        "startSpacing": 0,
+        "directSow": "12\"-18\"",
+        "indoorStartTimingDays": 49
       },
-      "width": {
-        "min": 0,
-        "max": 0
+      "seedling": {
+        "daysToGermination": 17,
+        "thinning": "",
+        "transplanting": ""
       },
-      "water": "Dry to Medium",
-      "fertilizer": "Low, once every 2-4 weeks with fish emulsion, blood meal, bone meal"
-    }
+      "grow": {
+        "height": {
+          "min": 18,
+          "max": 24
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "Dry to Medium",
+        "fertilizer": "Low, once every 2-4 weeks with fish emulsion, blood meal, bone meal"
+      }
+    },
+    "notes": "<p>Semi hardy cool weather short lived perennial/biennial</p><p>Fill a pot to within 1/4 to 1/2 inch of the rim with moist seed starting medium.</p><p>Firm the surface with the back of your fingers, then scatter seeds evenly over the medium.</p><p>Sprinkle a little additional medium over seeds but do not cover fully add a label with the plant name and date.</p><p>Cover the finished pots with plastic and set them in a warm bright place or under lights.</p><p>This plant readily reseeds itself, but volunteer seedlings can easily be removed if not wanted. </p><p></p>"
   },
-  "notes": "<p>Semi hardy cool weather short lived perennial/biennial</p><p>Fill a pot to within 1/4 to 1/2 inch of the rim with moist seed starting medium.</p><p>Firm the surface with the back of your fingers, then scatter seeds evenly over the medium.</p><p>Sprinkle a little additional medium over seeds but do not cover fully add a label with the plant name and date.</p><p>Cover the finished pots with plastic and set them in a warm bright place or under lights.</p><p>This plant readily reseeds itself, but volunteer seedlings can easily be removed if not wanted. </p><p></p>"
-},
   {
-  "plant": "Petunia",
-  "slug": "petunia-hybrida",
-  "url": "https://www.projectpurityseeds.com/store/p366/Shanin-Wild-Petunia-Flower-Seeds.html",
-  "fullName": "Petunia Hybrida",
-  "image": "",
-  "blooms": "",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "",
-    "root": {
-      "minDepth":  0,
-      "type": ""
-    },
-    "soil": {
-      "conditions": "",
-      "pH": {
-        "min": 0,
-        "max": 0
+    "plant": "Petunia",
+    "slug": "petunia-hybrida",
+    "url": "https://www.projectpurityseeds.com/store/p366/Shanin-Wild-Petunia-Flower-Seeds.html",
+    "fullName": "Petunia Hybrida",
+    "image": "",
+    "blooms": "",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "",
+      "root": {
+        "minDepth": 0,
+        "type": ""
+      },
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sun": {
+        "exposure": ""
       }
     },
-    "sun": {
-      "exposure": ""
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0,
-      "startSpacing": 0,
-      "directSow": "",
-      "indoorStartTimingDays": 77
-    },
-    "seedling": {
-      "daysToGermination": 12,
-      "thinning": "",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 0,
-        "max": 0
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0,
+        "startSpacing": 0,
+        "directSow": "",
+        "indoorStartTimingDays": 77
       },
-      "width": {
-        "min": 0,
-        "max": 0
+      "seedling": {
+        "daysToGermination": 12,
+        "thinning": "",
+        "transplanting": ""
       },
-      "water": "",
-      "fertilizer": ""
-    }
+      "grow": {
+        "height": {
+          "min": 0,
+          "max": 0
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "",
+        "fertilizer": ""
+      }
+    },
+    "notes": "<p>In a germination flat, press the seed into the surface of the soil; this seed needs light to germinate</p><p>As soon as the seedlings can safely be handled, transplant them into individual pots</p><p></p>"
   },
-  "notes": "<p>In a germination flat, press the seed into the surface of the soil; this seed needs light to germinate</p><p>As soon as the seedlings can safely be handled, transplant them into individual pots</p><p></p>"
-},
   {
-  "plant": "Evening Primrose",
-  "slug": "oenothera-lamarckiana",
-  "url": "",
-  "fullName": "Oenothera Lamarckiana",
-  "image": "",
-  "blooms": "",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "",
-    "root": {
-      "minDepth":  0,
-      "type": ""
-    },
-    "soil": {
-      "conditions": "",
-      "pH": {
-        "min": 0,
-        "max": 0
+    "plant": "Evening Primrose",
+    "slug": "oenothera-lamarckiana",
+    "url": "",
+    "fullName": "Oenothera Lamarckiana",
+    "image": "",
+    "blooms": "",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "",
+      "root": {
+        "minDepth": 0,
+        "type": ""
+      },
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sun": {
+        "exposure": ""
       }
     },
-    "sun": {
-      "exposure": ""
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0,
-      "startSpacing": 0,
-      "directSow": "",
-      "indoorStartTimingDays": 63
-    },
-    "seedling": {
-      "daysToGermination": 0,
-      "thinning": "",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 0,
-        "max": 0
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0,
+        "startSpacing": 0,
+        "directSow": "",
+        "indoorStartTimingDays": 63
       },
-      "width": {
-        "min": 0,
-        "max": 0
+      "seedling": {
+        "daysToGermination": 0,
+        "thinning": "",
+        "transplanting": ""
       },
-      "water": "",
-      "fertilizer": ""
-    }
+      "grow": {
+        "height": {
+          "min": 0,
+          "max": 0
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "",
+        "fertilizer": ""
+      }
+    },
+    "notes": "<p></p>"
   },
-  "notes": "<p></p>"
-},
   {
-  "plant": "Poppy, Red",
-  "slug": "papaver-rhoeas",
-  "url": "https://www.projectpurityseeds.com/store/p76/Red-Poppy-Flower-Seeds.html",
-  "fullName": "Papaver Rhoeas",
-  "image": "",
-  "blooms": "",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "",
-    "root": {
-      "minDepth":  0,
-      "type": ""
-    },
-    "soil": {
-      "conditions": "",
-      "pH": {
-        "min": 0,
-        "max": 0
+    "plant": "Poppy, Red",
+    "slug": "papaver-rhoeas",
+    "url": "https://www.projectpurityseeds.com/store/p76/Red-Poppy-Flower-Seeds.html",
+    "fullName": "Papaver Rhoeas",
+    "image": "",
+    "blooms": "",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "",
+      "root": {
+        "minDepth": 0,
+        "type": ""
+      },
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sun": {
+        "exposure": ""
       }
     },
-    "sun": {
-      "exposure": ""
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0,
-      "startSpacing": 0,
-      "directSow": "",
-      "indoorStartTimingDays": 49
-    },
-    "seedling": {
-      "daysToGermination": 0,
-      "thinning": "",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 0,
-        "max": 0
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0,
+        "startSpacing": 0,
+        "directSow": "",
+        "indoorStartTimingDays": 49
       },
-      "width": {
-        "min": 0,
-        "max": 0
+      "seedling": {
+        "daysToGermination": 0,
+        "thinning": "",
+        "transplanting": ""
       },
-      "water": "",
-      "fertilizer": ""
-    }
+      "grow": {
+        "height": {
+          "min": 0,
+          "max": 0
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "",
+        "fertilizer": ""
+      }
+    },
+    "notes": "<p>Because poppies resent transplanting, sow seeds in biodegradable pots that go in the ground with the plant</p>"
   },
-  "notes": "<p>Because poppies resent transplanting, sow seeds in biodegradable pots that go in the ground with the plant</p>"
-},
   {
-  "plant": "Aster",
-  "slug": "callistephus-chinensis",
-  "url": "https://www.westcoastseeds.com/blogs/wcs-academy/how-to-grow-china-asters",
-  "fullName": "Callistephus Chinensis",
-  "image": "",
-  "blooms": "",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "",
-    "root": {
-      "minDepth":  0,
-      "type": ""
-    },
-    "soil": {
-      "conditions": "",
-      "pH": {
-        "min": 0,
-        "max": 0
+    "plant": "Aster",
+    "slug": "callistephus-chinensis",
+    "url": "https://www.westcoastseeds.com/blogs/wcs-academy/how-to-grow-china-asters",
+    "fullName": "Callistephus Chinensis",
+    "image": "",
+    "blooms": "",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "",
+      "root": {
+        "minDepth": 0,
+        "type": ""
+      },
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sun": {
+        "exposure": ""
       }
     },
-    "sun": {
-      "exposure": ""
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0,
-      "startSpacing": 0,
-      "directSow": "",
-      "indoorStartTimingDays": 49
-    },
-    "seedling": {
-      "daysToGermination": 0,
-      "thinning": "",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 0,
-        "max": 0
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0,
+        "startSpacing": 0,
+        "directSow": "",
+        "indoorStartTimingDays": 49
       },
-      "width": {
-        "min": 0,
-        "max": 0
+      "seedling": {
+        "daysToGermination": 0,
+        "thinning": "",
+        "transplanting": ""
       },
-      "water": "",
-      "fertilizer": ""
-    }
+      "grow": {
+        "height": {
+          "min": 0,
+          "max": 0
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "",
+        "fertilizer": ""
+      }
+    },
+    "notes": "<p></p>"
   },
-  "notes": "<p></p>"
-},
   {
-  "plant": "Cosmos",
-  "slug": "cosmos-bipinnatus",
-  "url": "https://www.projectpurityseeds.com/cosmos.html",
-  "fullName": "Cosmos Bipinnatus",
-  "image": "",
-  "blooms": "",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "Bees, Birds, and Butterflies",
-    "root": {
-      "minDepth": 12,
-      "type": "Taproot"
-    },
-    "seasonality": "Annual",
-    "soil": {
-      "conditions": "Excessively drained.",
-      "pH": {
-        "min": 6.6,
-        "max": 7.8
+    "plant": "Cosmos",
+    "slug": "cosmos-bipinnatus",
+    "url": "https://www.projectpurityseeds.com/cosmos.html",
+    "fullName": "Cosmos Bipinnatus",
+    "image": "",
+    "blooms": "",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "Bees, Birds, and Butterflies",
+      "root": {
+        "minDepth": 12,
+        "type": "Taproot"
+      },
+      "seasonality": "Annual",
+      "soil": {
+        "conditions": "Excessively drained.",
+        "pH": {
+          "min": 6.6,
+          "max": 7.8
+        }
+      },
+      "sun": {
+        "exposure": "Full"
       }
     },
-    "sun": {
-      "exposure": "Full"
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0,
-      "startSpacing": 0,
-      "directSow": "15\" to 18\"",
-      "indoorStartTimingDays": 49
-    },
-    "seedling": {
-      "daysToGermination": 15,
-      "thinning": "",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 36,
-        "max": 60
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0,
+        "startSpacing": 0,
+        "directSow": "15\" to 18\"",
+        "indoorStartTimingDays": 49
       },
-      "width": {
-        "min": 0,
-        "max": 0
+      "seedling": {
+        "daysToGermination": 15,
+        "thinning": "",
+        "transplanting": ""
       },
-      "water": "Dry to Medium",
-      "fertilizer": ""
-    }
+      "grow": {
+        "height": {
+          "min": 36,
+          "max": 60
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "Dry to Medium",
+        "fertilizer": ""
+      }
+    },
+    "notes": "<p>Drought tolerant, Tolerates poor soil.</p><p>Suitable in 3 gallon container or larger</p><p>Cosmos and tomatoes get along like old friends</p><p></p>"
   },
-  "notes": "<p>Drought tolerant, Tolerates poor soil.</p><p>Suitable in 3 gallon container or larger</p><p>Cosmos and tomatoes get along like old friends</p><p></p>"
-},
   {
-  "plant": "Echinacea",
-  "slug": "echinacea-purpurea",
-  "url": "",
-  "fullName": "Echinacea Purpurea",
-  "image": "echinacea-purple-coneflower.jpeg",
-  "blooms": "Summer to fall",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "Butterflies, birds",
-    "root": {
-      "minDepth":  72,
-      "type": "taproot"
-    },
-    "seasonality": "Perennial",
-    "soil": {
-      "conditions": "Well-drained, moist loam but is adaptable to various soil types",
-      "pH": {
-        "min": 6.0,
-        "max": 8.0
+    "plant": "Echinacea",
+    "slug": "echinacea-purpurea",
+    "url": "",
+    "fullName": "Echinacea Purpurea",
+    "image": "echinacea-purple-coneflower.jpeg",
+    "blooms": "Summer to fall",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "Butterflies, birds",
+      "root": {
+        "minDepth": 72,
+        "type": "taproot"
+      },
+      "seasonality": "Perennial",
+      "soil": {
+        "conditions": "Well-drained, moist loam but is adaptable to various soil types",
+        "pH": {
+          "min": 6.0,
+          "max": 8.0
+        }
+      },
+      "sun": {
+        "exposure": "6 hours full, 2-6 hours partial"
       }
     },
-    "sun": {
-      "exposure": "6 hours full, 2-6 hours partial"
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0.125,
-      "startSpacing": 0,
-      "directSow": "12-15\" apart",
-      "indoorStartTimingDays": 49
-    },
-    "seedling": {
-      "daysToGermination": 16,
-      "thinning": "",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 0,
-        "max": 36
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.125,
+        "startSpacing": 0,
+        "directSow": "12-15\" apart",
+        "indoorStartTimingDays": 49
       },
-      "width": {
-        "min": 0,
-        "max": 0
+      "seedling": {
+        "daysToGermination": 16,
+        "thinning": "",
+        "transplanting": ""
       },
-      "water": "",
-      "fertilizer": ""
-    }
+      "grow": {
+        "height": {
+          "min": 0,
+          "max": 36
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "",
+        "fertilizer": ""
+      }
+    },
+    "notes": "<p>If starting indoors, provide total darkness and a soil temperature of 21-25°C. Once sprouts appear, provide bright light</p><p></p><p>Sow outdoors in spring, or late summer (at least 12 weeks before first frost)</p><p>Sow seeds evenly and thinly and cover with 1/4\" fine soil.  First lightly and keep evenly moist</p>"
   },
-  "notes": "<p>If starting indoors, provide total darkness and a soil temperature of 21-25°C. Once sprouts appear, provide bright light</p><p></p><p>Sow outdoors in spring, or late summer (at least 12 weeks before first frost)</p><p>Sow seeds evenly and thinly and cover with 1/4\" fine soil.  First lightly and keep evenly moist</p>"
-},
   {
-  "plant": "Columbine",
-  "slug": "",
-  "url": "",
-  "fullName": "",
-  "image": "",
-  "blooms": "May-June",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "",
-    "root": {
-      "minDepth": 0,
-      "type": ""
-    },
-    "seasonality": "Perennial",
-    "soil": {
-      "conditions": "",
-      "pH": {
-        "min": 0,
-        "max": 0
+    "plant": "Columbine",
+    "slug": "",
+    "url": "",
+    "fullName": "",
+    "image": "",
+    "blooms": "May-June",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "",
+      "root": {
+        "minDepth": 0,
+        "type": ""
+      },
+      "seasonality": "Perennial",
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sun": {
+        "exposure": ""
       }
     },
-    "sun": {
-      "exposure": ""
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0.25,
-      "startSpacing": 0.5,
-      "directSow": "",
-      "indoorStartTimingDays": 49
-    },
-    "seedling": {
-      "daysToGermination": 40,
-      "thinning": "Thin to 10\"",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 24,
-        "max": 30
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.25,
+        "startSpacing": 0.5,
+        "directSow": "",
+        "indoorStartTimingDays": 49
       },
-      "width": {
-        "min": 0,
-        "max": 0
+      "seedling": {
+        "daysToGermination": 40,
+        "thinning": "Thin to 10\"",
+        "transplanting": ""
       },
-      "water": "",
-      "fertilizer": ""
-    }
+      "grow": {
+        "height": {
+          "min": 24,
+          "max": 30
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "",
+        "fertilizer": ""
+      }
+    },
+    "notes": "<p>Mix the seed with moist sand and store it in the refrigerator for 60 days before direct sowing after the last frost</p>"
   },
-  "notes": "<p>Mix the seed with moist sand and store it in the refrigerator for 60 days before direct sowing after the last frost</p>"
-},
   {
-  "plant": "Milkweed Butterfly",
-  "slug": "aslepias-tuberosa",
-  "url": "https://www.projectpurityseeds.com/store/p255/Butterfly-Weed-Flower-Seeds.html",
-  "fullName": "Aslepias Tuberosa",
-  "image": "milkweed-butterfly.jpeg",
-  "blooms": "June-Frost",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "Butterflies, hummingbirds, bees",
-    "root": {
-      "minDepth": 0,
-      "type": ""
-    },
-    "seasonality": "Says both",
-    "soil": {
-      "conditions": "",
-      "pH": {
-        "min": 0,
-        "max": 0
+    "plant": "Milkweed Butterfly",
+    "slug": "aslepias-tuberosa",
+    "url": "https://www.projectpurityseeds.com/store/p255/Butterfly-Weed-Flower-Seeds.html",
+    "fullName": "Aslepias Tuberosa",
+    "image": "milkweed-butterfly.jpeg",
+    "blooms": "June-Frost",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "Butterflies, hummingbirds, bees",
+      "root": {
+        "minDepth": 0,
+        "type": ""
+      },
+      "seasonality": "Says both",
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sun": {
+        "exposure": "Full"
       }
     },
-    "sun": {
-      "exposure": "Full"
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0.125,
-      "startSpacing": 0,
-      "directSow": "",
-      "indoorStartTimingDays": 0
-    },
-    "seedling": {
-      "daysToGermination": 0,
-      "thinning": "",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 24,
-        "max": 36
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.125,
+        "startSpacing": 0,
+        "directSow": "",
+        "indoorStartTimingDays": 0
       },
-      "width": {
-        "min": 0,
-        "max": 0
+      "seedling": {
+        "daysToGermination": 0,
+        "thinning": "",
+        "transplanting": ""
       },
-      "water": "",
-      "fertilizer": ""
-    }
+      "grow": {
+        "height": {
+          "min": 24,
+          "max": 36
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "",
+        "fertilizer": ""
+      }
+    },
+    "notes": "<p>For spring planting, mix the seeds with moist sand and refrigerate for 30 days before direct sowing</p><p>Plant in biodegradable pots: Seedlings usually do not survive transplanting, since they resent any disturbance of their roots</p><p>Monarch butterflies lay eggs on this plant and the resulting larvae (caterpillars) use the plant leaves as a food source.</p><p>Consider wearing gloves when working with these plants because the milky sap is poisonous if ingested and can be toxic to human skin.</p><p>Milkweed contains toxic alkaloids and cardenolides, which can cause nausea and vomiting in low doses, and death in high doses</p>"
   },
-  "notes": "<p>For spring planting, mix the seeds with moist sand and refrigerate for 30 days before direct sowing</p><p>Plant in biodegradable pots: Seedlings usually do not survive transplanting, since they resent any disturbance of their roots</p><p>Monarch butterflies lay eggs on this plant and the resulting larvae (caterpillars) use the plant leaves as a food source.</p><p>Consider wearing gloves when working with these plants because the milky sap is poisonous if ingested and can be toxic to human skin.</p><p>Milkweed contains toxic alkaloids and cardenolides, which can cause nausea and vomiting in low doses, and death in high doses</p>"
-},
   {
-  "plant": "Lupine Russell Hybrid",
-  "slug": "lupine-polyphyllus",
-  "url": "",
-  "fullName": "Lupine Polyphyllus",
-  "image": "",
-  "blooms": "Late spring to early summer",
-  "wherePlanted": "",
-  "attributes": {
-    "attracts": "Bees, butterflies, hummingbirds",
-    "root": {
-      "minDepth": 0,
-      "type": "Taproot"
-    },
-    "seasonality": "Short-lived Perennial / Annual",
-    "soil": {
-      "conditions": "",
-      "pH": {
-        "min": 0,
-        "max": 0
+    "plant": "Lupine Russell Hybrid",
+    "slug": "lupine-polyphyllus",
+    "url": "",
+    "fullName": "Lupine Polyphyllus",
+    "image": "",
+    "blooms": "Late spring to early summer",
+    "wherePlanted": "",
+    "attributes": {
+      "attracts": "Bees, butterflies, hummingbirds",
+      "root": {
+        "minDepth": 0,
+        "type": "Taproot"
+      },
+      "seasonality": "Short-lived Perennial / Annual",
+      "soil": {
+        "conditions": "",
+        "pH": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "sun": {
+        "exposure": ""
       }
     },
-    "sun": {
-      "exposure": ""
-    }
-  },
-  "lifecycle": {
-    "sow": {
-      "plantingDepth": 0.5,
-      "startSpacing": 0,
-      "directSow": "",
-      "indoorStartTimingDays": 0
-    },
-    "seedling": {
-      "daysToGermination": 0,
-      "thinning": "6-12\"",
-      "transplanting": ""
-    },
-    "grow": {
-      "height": {
-        "min": 12,
-        "max": 36
+    "lifecycle": {
+      "sow": {
+        "plantingDepth": 0.5,
+        "startSpacing": 0,
+        "directSow": "",
+        "indoorStartTimingDays": 0
       },
-      "width": {
-        "min": 0,
-        "max": 0
+      "seedling": {
+        "daysToGermination": 0,
+        "thinning": "6-12\"",
+        "transplanting": ""
       },
-      "water": "",
-      "fertilizer": ""
-    }
-  },
-  "notes": "<p>To soften the hard coating on these seeds, rub them lightly with sandpaper then soak them in 180 degrees F water overnight before sowing.</p><p> You can also sow seeds in the spring 4 to 6 weeks before your average last frost date, but your plants will bloom later in the summer.</p><p>Plant container-grown plants in the spring after the danger of frost has passed</p><p>Space plants about 2 to 3 feet apart, and loosen the soil deeply to accommodate the long taproots</p>"
-}
-  ]
+      "grow": {
+        "height": {
+          "min": 12,
+          "max": 36
+        },
+        "width": {
+          "min": 0,
+          "max": 0
+        },
+        "water": "",
+        "fertilizer": ""
+      }
+    },
+    "notes": "<p>To soften the hard coating on these seeds, rub them lightly with sandpaper then soak them in 180 degrees F water overnight before sowing.</p><p> You can also sow seeds in the spring 4 to 6 weeks before your average last frost date, but your plants will bloom later in the summer.</p><p>Plant container-grown plants in the spring after the danger of frost has passed</p><p>Space plants about 2 to 3 feet apart, and loosen the soil deeply to accommodate the long taproots</p>"
+  }
+]

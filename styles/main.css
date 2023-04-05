@@ -60,6 +60,7 @@ html {
 
 body {
   font-family: "Albert Sans", sans-serif;
+  background-color: #ebf7ed;
 }
 
 a {
@@ -114,6 +115,7 @@ ul {
 
 .heading-1 {
   font-size: 3.6rem;
+  color: #16471f;
 }
 
 .container {

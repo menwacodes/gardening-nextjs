@@ -1,3 +1,7 @@
 ### GET herbs
 GET http://localhost:3000/api/gardening/food
 Accept: application/json
+
+### GET flowers
+GET http://localhost:3000/api/gardening/flowers
+Accept: application/json

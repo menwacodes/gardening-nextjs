@@ -4,8 +4,10 @@ import classes from "../GardeningHome.module.scss";
 
 import FoodCard from "@/components/gardening/food/FoodCard";
 
-const GardeningHomePage = ({ allFood, count }) => {
+const FoodHomePage = ({ allFood, count }) => {
+    // sort food by name and put into state
     const [foodItems, setFoodItems] = useState(allFood.sort((a, b) => a.plant > b.plant ? 1 : -1));
+    // maintenance mode should be default after testing and everything is planted
     const [showMaintenance, setShowMaintenance] = useState(false);
 
     const sortFoodItems = sortBy => {
@@ -54,4 +56,4 @@ export async function getStaticProps() {
     return { props: { allFood: data.data, count: data.count } };
 }
 
-export default GardeningHomePage;
+export default FoodHomePage;
