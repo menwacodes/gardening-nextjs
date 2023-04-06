@@ -1,5 +1,6 @@
 import Header from "@/components/layout/Header";
 import Head from "next/head";
+import classes from "./MainLayout.module.scss"
 
 const MainLayout = props => {
     return (
@@ -12,7 +13,7 @@ const MainLayout = props => {
                 <meta name="keywords" content="food, herbs, flowers, soil, fertilizer"/>
             </Head>
             <Header />
-            <div className="site-container">
+            <div className={classes.site__container}>
                 {props.children}
             </div>
 

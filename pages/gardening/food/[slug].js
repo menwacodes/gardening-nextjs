@@ -36,7 +36,7 @@ const FoodById = ({food}) => {
                             <svg className={classes.lifecycle__item__icon} style={{strokeWidth: "4"}}>
                                 <use href={"/img/sprite.svg#icon-shovel"}></use>
                             </svg>
-                            <span>Direct Sow: {food.lifecycle.sow.directSow}&quot;</span>
+                            <span>Direct Sow: {food.lifecycle.sow.directSow}</span>
                         </li>
                         <li className={classes.lifecycle__item__line}>
                             <svg className={classes.lifecycle__item__icon} style={{strokeWidth: "4"}}>

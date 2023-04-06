@@ -15,7 +15,7 @@
 .header__figure {
   display: flex;
   gap: 2.4rem;
-  margin-top: 4.4rem;
+  margin: 4.4rem 0;
 }
 .header__figure__caption {
   font-size: 1.8rem;
@@ -67,6 +67,11 @@
   width: 2.4rem;
   fill: #000000;
   flex: 0 0 auto;
+}
+
+.section__notes {
+  border-bottom: 1px dotted #16471f;
+  padding-bottom: 2.4rem;
 }
 
 .rotate90 {
