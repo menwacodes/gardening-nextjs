@@ -8,7 +8,13 @@ const FoodById = ({food}) => {
             <header className={classes.header}>
                 <h1 className={classes.header__main}>{food.plant}</h1>
                 <h2 className={classes.header__secondary}>~ {food.fullName} ~</h2>
-                <Image className={classes.header__image} src={`/img/gardening/${food.image}`} width={"1920"} height={"1080"} alt={""}/>
+                <Image
+                    className={classes.header__image}
+                    src={`/img/gardening/${food.image}`}
+                    width={"1920"}
+                    height={"1080"}
+                    alt={`Image of ${food.plant}`}
+                />
             </header>
             <article className={classes.lifecycle}>
                 <section className={classes.lifecycle__section}>

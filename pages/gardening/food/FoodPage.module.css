@@ -4,11 +4,29 @@
 .header__main {
   font-size: 3.6rem;
   font-weight: bold;
+  margin-bottom: 0;
 }
 .header__secondary {
   font-size: 2rem;
   font-style: italic;
   font-weight: 300;
+  margin-top: 0;
+}
+.header__figure {
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 4.4rem;
+}
+.header__figure__caption {
+  font-size: 1.8rem;
+  text-align: left;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  column-gap: 1.2rem;
+}
+.header__figure__caption__left {
+  text-align: right;
+  font-weight: bold;
 }
 .header__image {
   width: 30%;

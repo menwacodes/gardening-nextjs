@@ -21,6 +21,8 @@
   height: 20rem;
   transition: all 0.2s;
   opacity: 0.7;
+  object-fit: cover;
+  object-position: center;
 }
 .card__content {
   padding: 1.2rem 2.4rem 1.2rem;

@@ -26,6 +26,8 @@
         height: 20rem;
         transition: all .2s;
         opacity: .7;
+        object-fit: cover;
+        object-position: center;
     }
 
     &__content {

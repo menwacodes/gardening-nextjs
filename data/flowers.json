@@ -46,18 +46,18 @@
           "min": 12,
           "max": 24
         },
-        "water": "1 inch per week",
+        "water": "1\" per week",
         "fertilizer": "Balanced, monthly, potted may be more frequent"
       }
     },
-    "notes": "<p>Once seedlings are 2-3 inches, transplant to pots until frost has passed</p><p>Needs light to germinate, sprinkle seeds on top of soil to plant and do not cover</p><p>Transplant outdoors when the soil has thoroughly warmed, several weeks after the last frost.</p>"
+    "notes": "<p>Once seedlings are 2-3\", transplant to pots until frost has passed</p><p>Needs light to germinate, sprinkle seeds on top of soil to plant and do not cover</p><p>Transplant outdoors when the soil has thoroughly warmed, several weeks after the last frost.</p>"
   },
   {
     "plant": "Alyssum",
     "slug": "lobularia-maritima",
     "url": "https://www.projectpurityseeds.com/store/p509/Carpet-Of-Snow-Sweet-Alyssum-Flower-Seeds.html",
     "fullName": "Lobularia maritima",
-    "image": "",
+    "image": "lobularia-maritima.jpeg",
     "blooms": "Spring, fall",
     "wherePlanted": "",
     "attributes": {
@@ -86,7 +86,7 @@
       },
       "seedling": {
         "daysToGermination": 10,
-        "thinning": "2 inches",
+        "thinning": "2\"",
         "transplanting": "When seedlings have several pairs of true leaves and soil is at least 16C, transplant"
       },
       "grow": {
@@ -98,7 +98,7 @@
           "min": 2,
           "max": 4
         },
-        "water": "1 inch per week",
+        "water": "1\" per week",
         "fertilizer": "Not much, can add well-balanced if desired"
       }
     },
@@ -109,7 +109,7 @@
     "slug": "helianthus-annuus",
     "url": "https://www.wildflower.org/plants/result.php?id_plant=hean3",
     "fullName": "Helianthus annuus",
-    "image": "",
+    "image": "helianthus-annuus.jpeg",
     "blooms": "Jun-Nov",
     "wherePlanted": "",
     "attributes": {
@@ -161,7 +161,7 @@
     "slug": "salvia-officinalis",
     "url": "https://www.projectpurityseeds.com/store/p25/Broadleaf-Sage-Herb-Seeds.html",
     "fullName": "Salvia Officinalis",
-    "image": "",
+    "image": "salvia-officinalis.jpeg",
     "blooms": "",
     "wherePlanted": "",
     "attributes": {
@@ -190,7 +190,7 @@
       },
       "seedling": {
         "daysToGermination": 15,
-        "thinning": "12-15 inches",
+        "thinning": "12-15\"",
         "transplanting": ""
       },
       "grow": {
@@ -210,10 +210,10 @@
   },
   {
     "plant": "Marigold CrackerJack",
-    "slug": "tagetes-erecta",
+    "slug": "tagetes-erecta-cracker",
     "url": "https://www.projectpurityseeds.com/store/p299/Sparky-Mix-Marigold-Flower-Seeds.html",
     "fullName": "Tagetes Erecta",
-    "image": "marigold.jpeg",
+    "image": "tagetes-erecta-cracker.jpeg",
     "blooms": "",
     "wherePlanted": "",
     "attributes": {
@@ -244,7 +244,7 @@
       },
       "seedling": {
         "daysToGermination": 10,
-        "thinning": "8-12 inches",
+        "thinning": "8-12\"",
         "transplanting": ""
       },
       "grow": {
@@ -267,7 +267,7 @@
     "slug": "tagetes-patula",
     "url": "",
     "fullName": "Tagetes Patula",
-    "image": "",
+    "image": "tagetes-erecta.jpeg",
     "blooms": "",
     "wherePlanted": "",
     "attributes": {
@@ -343,13 +343,13 @@
       "sow": {
         "plantingDepth": 0.25,
         "startSpacing": 0,
-        "directSow": "18-24 inches",
+        "directSow": "18-24\"",
         "indoorStartTimingDays": 35
       },
       "seedling": {
         "daysToGermination": 0,
         "thinning": "",
-        "transplanting": "10-12 inches apart"
+        "transplanting": "10-12\" apart"
       },
       "grow": {
         "height": {
@@ -371,7 +371,7 @@
     "slug": "iberis-sempervirens",
     "url": "https://plants.ces.ncsu.edu/plants/iberis-sempervirens/",
     "fullName": "Iberis Sempervirens",
-    "image": "",
+    "image": "iberis-sempervirens.jpg",
     "blooms": "Late spring / early summer",
     "wherePlanted": "",
     "attributes": {
@@ -468,14 +468,14 @@
         "fertilizer": "Low, once every 2-4 weeks with fish emulsion, blood meal, bone meal"
       }
     },
-    "notes": "<p>Semi hardy cool weather short lived perennial/biennial</p><p>Fill a pot to within 1/4 to 1/2 inch of the rim with moist seed starting medium.</p><p>Firm the surface with the back of your fingers, then scatter seeds evenly over the medium.</p><p>Sprinkle a little additional medium over seeds but do not cover fully add a label with the plant name and date.</p><p>Cover the finished pots with plastic and set them in a warm bright place or under lights.</p><p>This plant readily reseeds itself, but volunteer seedlings can easily be removed if not wanted. </p><p></p>"
+    "notes": "<p>Semi hardy cool weather short lived perennial/biennial</p><p>Fill a pot to within 1/4 to 1/2\" of the rim with moist seed starting medium.</p><p>Firm the surface with the back of your fingers, then scatter seeds evenly over the medium.</p><p>Sprinkle a little additional medium over seeds but do not cover fully add a label with the plant name and date.</p><p>Cover the finished pots with plastic and set them in a warm bright place or under lights.</p><p>This plant readily reseeds itself, but volunteer seedlings can easily be removed if not wanted. </p><p></p>"
   },
   {
     "plant": "Petunia",
     "slug": "petunia-hybrida",
     "url": "https://www.projectpurityseeds.com/store/p366/Shanin-Wild-Petunia-Flower-Seeds.html",
     "fullName": "Petunia Hybrida",
-    "image": "",
+    "image": "petunia-hybrida.jpeg",
     "blooms": "",
     "wherePlanted": "",
     "attributes": {
@@ -527,7 +527,7 @@
     "slug": "oenothera-lamarckiana",
     "url": "",
     "fullName": "Oenothera Lamarckiana",
-    "image": "",
+    "image": "oenothera-lamarckiana.jpeg",
     "blooms": "",
     "wherePlanted": "",
     "attributes": {
@@ -579,7 +579,7 @@
     "slug": "papaver-rhoeas",
     "url": "https://www.projectpurityseeds.com/store/p76/Red-Poppy-Flower-Seeds.html",
     "fullName": "Papaver Rhoeas",
-    "image": "",
+    "image": "papaver-rhoeas.jpeg",
     "blooms": "",
     "wherePlanted": "",
     "attributes": {
@@ -631,7 +631,7 @@
     "slug": "callistephus-chinensis",
     "url": "https://www.westcoastseeds.com/blogs/wcs-academy/how-to-grow-china-asters",
     "fullName": "Callistephus Chinensis",
-    "image": "",
+    "image": "callistephus-chinensis.jpeg",
     "blooms": "",
     "wherePlanted": "",
     "attributes": {
@@ -683,7 +683,7 @@
     "slug": "cosmos-bipinnatus",
     "url": "https://www.projectpurityseeds.com/cosmos.html",
     "fullName": "Cosmos Bipinnatus",
-    "image": "",
+    "image": "cosmos-bipinnatus.jpeg",
     "blooms": "",
     "wherePlanted": "",
     "attributes": {
@@ -786,10 +786,10 @@
   },
   {
     "plant": "Columbine",
-    "slug": "",
+    "slug": "aquilegia-caerulea",
     "url": "",
-    "fullName": "",
-    "image": "",
+    "fullName": "Aquilegia caerulea",
+    "image": "aquilegia-caerulea.jpeg",
     "blooms": "May-June",
     "wherePlanted": "",
     "attributes": {
@@ -895,7 +895,7 @@
     "slug": "lupine-polyphyllus",
     "url": "",
     "fullName": "Lupine Polyphyllus",
-    "image": "",
+    "image": "lupine-polyphyllus.jpeg",
     "blooms": "Late spring to early summer",
     "wherePlanted": "",
     "attributes": {

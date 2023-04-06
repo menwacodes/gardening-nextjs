@@ -10,6 +10,9 @@ const FlowersHomePage = ({ allFlowers, count }) => {
     // maintenance mode should be default after testing and everything is planted
     const [showMaintenance, setShowMaintenance] = useState(false);
 
+    const showTypeHandler = () => setShowMaintenance(!showMaintenance);
+
+    // create cards
     const flowerCards = flowerItems.map(flower =>
         <FlowerCard
             key={ flower.slug }
@@ -21,6 +24,11 @@ const FlowersHomePage = ({ allFlowers, count }) => {
     return (
         <article className={classes.food__container}>
             <h1 className={"heading-1 center-text"}>Flowers</h1>
+            <div className={ "food-buttons" }>
+                <BasicButton onClick={ showTypeHandler }>
+                    { showMaintenance ? "Planting Deets" : "Maintenance Deets" }
+                </BasicButton>
+            </div>
             <div className={classes.food_grid}>
                 {flowerCards}
             </div>
