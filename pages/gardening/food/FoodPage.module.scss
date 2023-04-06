@@ -95,4 +95,54 @@
 
 .notes {
     font-size: 1.8rem;
+
+    p:not(:last-child) {
+        margin-bottom: 1.2rem;
+    }
+}
+
+@media (max-width: 106rem) {
+    .header {
+        &__figure {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__image {
+            //width: 100%;
+        }
+    }
+}
+
+@media (max-width: 80rem) {
+    .lifecycle {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 25rem;
+    }
+}
+
+/*
+    844 px
+ */
+@media (max-width: 52.8rem) {
+    .header {
+        &__figure {
+            &__caption {
+                grid-template-columns: 1fr 2fr;
+                row-gap: 0.75rem;
+            }
+        }
+        &__image {
+            width: 60%;
+        }
+    }
+}
+
+/*
+    iPhone 12 Pro Max
+ */
+@media (max-width: 432rem) {
+
 }

@@ -5,7 +5,9 @@ const Header = () => {
     return (
         <header className={ classes.header }>
             <div className={ classes.header__logo }>
-                Gardening
+                <Link href={ "/" }>
+                    Gardening
+                </Link>
             </div>
             <nav className={ classes.header__nav }>
                 <ul className={ classes.header__nav__items }>

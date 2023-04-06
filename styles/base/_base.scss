@@ -25,3 +25,9 @@ a {
 .main-content {
   padding: 0 2rem 2rem;
 }
+
+@media (max-width: 52.8rem) {
+      html {
+        font-size: 56.25%;
+    }
+}

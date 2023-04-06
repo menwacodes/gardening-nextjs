@@ -35,10 +35,10 @@ const FlowersById = ({ flower }) => {
                             <span className={ classes.header__figure__caption__left }>pH Range:</span>
                             <span>{ flower.attributes.soil.pH.min } - { flower.attributes.soil.pH.max }</span>
 
-                            <span className={ classes.header__figure__caption__left }>Soil Conditions:</span>
+                            <span className={ classes.header__figure__caption__left }>Soil:</span>
                             <span>{ flower.attributes.soil.conditions }</span>
 
-                            <span className={ classes.header__figure__caption__left }>Sun Exposure:</span>
+                            <span className={ classes.header__figure__caption__left }>Sun:</span>
                             <span>{ flower.attributes.sun.exposure }</span>
 
                             <span className={ classes.header__figure__caption__left }>Water:</span>

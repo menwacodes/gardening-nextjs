@@ -72,6 +72,11 @@ a {
   padding: 0 2rem 2rem;
 }
 
+@media (max-width: 52.8rem) {
+  html {
+    font-size: 56.25%;
+  }
+}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -121,6 +126,7 @@ ul {
 .container {
   max-width: 80%;
   margin: 0 auto;
+  padding: 0 2.4rem;
 }
 
 .flex {
