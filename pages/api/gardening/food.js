@@ -1,5 +1,10 @@
 import getJsonFile from "@/lib/fileHelper";
 
+export async function getFoodData() {
+    const data = await getJsonFile("food.json")
+    return JSON.parse(JSON.stringify(data))
+}
+
 export default async function handler(req, res) {
     if (req.method === "GET") {
         try {

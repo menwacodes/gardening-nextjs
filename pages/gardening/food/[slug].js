@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import classes from "./FoodPage.module.scss";
 
+import {getFoodData} from "@/pages/api/gardening/food";
+
 const FoodById = ({food}) => {
 
     return (
@@ -117,20 +119,25 @@ const FoodById = ({food}) => {
 };
 
 export async function getStaticPaths() {
-    const response = await fetch(`http://localhost:3000/api/gardening/food`); // data
-    const data = await response.json();
+    // const response = await fetch(`http://localhost:3000/api/gardening/food`); // data
+    // const data = await response.json();
 
-    const pathParams = data.data.map(datum => ({params: {slug: datum.slug}})); // component-specific id
+    const data = await getFoodData();
+
+    const pathParams = data.map(datum => ({params: {slug: datum.slug}})); // component-specific id
 
     return {paths: pathParams, fallback: false};
 }
 
 
 export async function getStaticProps({params}) {
-    const response = await fetch(`http://localhost:3000/api/gardening/food`); // data
-    const data = await response.json();
+    // const response = await fetch(`http://localhost:3000/api/gardening/food`); // data
+    // const data = await response.json();
 
-    const food = data.data.find(f => f.slug === params.slug);
+    const data = await getFoodData();
+
+
+    const food = data.find(f => f.slug === params.slug);
 
     return {props: {food}, revalidate: 10};
 }
