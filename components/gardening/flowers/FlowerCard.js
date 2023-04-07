@@ -1,3 +1,4 @@
+import {numToFrac} from "@/lib/numberHelper";
 import Link from "next/link";
 import Image from "next/image";
 import classes from "../food/FoodCard.module.scss";
@@ -35,7 +36,7 @@ const FlowerCard = ({ flower, showMaintenance }) => {
                                             <use href={ "/img/sprite.svg#icon-horiz-ruler" }></use>
                                         </svg>
                                         <span className={ classes.card__text }>
-                                    Planting Depth: { flower.lifecycle.sow.plantingDepth }&quot;
+                                    Planting Depth: { numToFrac(flower.lifecycle.sow.plantingDepth) }&quot;
                                 </span>
                                     </li>
                                     <li className={ classes.card__item }>

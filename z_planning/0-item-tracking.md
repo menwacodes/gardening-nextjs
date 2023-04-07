@@ -4,3 +4,4 @@
    2. Rename styling card to be more generic
 3. [x] Flower detail page from linked card on landing
 4. [ ] Migrate JSON to mongo and pull from there
+5. [ ] Make a badge for annual/perennial

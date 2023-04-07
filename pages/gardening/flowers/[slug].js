@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import classes from "../food/FoodPage.module.scss";
+import {numToFrac} from "@/lib/numberHelper";
+
 
 const FlowersById = ({ flower }) => {
 
@@ -26,6 +28,10 @@ const FlowersById = ({ flower }) => {
                             <span className={ classes.header__figure__caption__left }>Attracts:</span>
                             <span>{ flower.attributes.attracts }</span>
 
+                            <span className={ classes.header__figure__caption__left }>Seasonality:</span>
+                            <span>{ flower.attributes.seasonality ? flower.attributes.seasonality : "MISSING" } </span>
+                            {/*ToDo: remove seasonality ternary*/}
+
                             <span className={ classes.header__figure__caption__left }>Blooms:</span>
                             <span>{ flower.blooms }</span>
 
@@ -44,6 +50,12 @@ const FlowersById = ({ flower }) => {
                             <span className={ classes.header__figure__caption__left }>Water:</span>
                             <span>{ flower.lifecycle.grow.water }</span>
 
+                            <span className={ classes.header__figure__caption__left }>Root Depth:</span>
+                            <span>{ flower.attributes.root.minDepth }&quot;</span>
+
+                            <span className={ classes.header__figure__caption__left }>Root Type:</span>
+                            <span>{ flower.attributes.root.type }</span>
+
                         </figcaption>
                     </figure>
                 </header>
@@ -51,6 +63,11 @@ const FlowersById = ({ flower }) => {
                     <section className={ classes.section__notes }>
                         <h2 className={ classes.header__notes }>Notes</h2>
                         <div className={ classes.notes } dangerouslySetInnerHTML={ { __html: flower.notes } }></div>
+                        { flower.url.length > 0 &&
+                            <aside className={ classes.external__link }>
+                                <a href={ flower.url } target={ "_blank" } rel="noreferrer">More Info</a>
+                            </aside>
+                        }
                     </section>
                 }
 
@@ -63,7 +80,7 @@ const FlowersById = ({ flower }) => {
                                 <svg className={ `${ classes.lifecycle__item__icon } ${ classes.rotate90 }` }>
                                     <use href={ "/img/sprite.svg#icon-horiz-ruler" }></use>
                                 </svg>
-                                <span>Planting Depth: { flower.lifecycle.sow.plantingDepth }&quot;</span>
+                                <span>Planting Depth: { numToFrac(flower.lifecycle.sow.plantingDepth) }&quot;</span>
                             </li>
                             <li className={ classes.lifecycle__item__line }>
                                 <svg className={ classes.lifecycle__item__icon }>
@@ -115,12 +132,6 @@ const FlowersById = ({ flower }) => {
                     <section className={ classes.lifecycle__section }>
                         <h2 className={ classes.lifecycle__title }>Grow</h2>
                         <ul className={ classes.lifecycle__item }>
-                            <li className={ classes.lifecycle__item__line }>
-                                <svg className={ classes.lifecycle__item__icon }>
-                                    <use href={ "/img/sprite.svg#icon-calendar" }></use>
-                                </svg>
-                                <span>Days to Harvest: { flower.lifecycle.grow.daysToHarvest }</span>
-                            </li>
                             <li className={ classes.lifecycle__item__line }>
                                 <svg className={ `${ classes.lifecycle__item__icon } ${ classes.rotate90 }` }>
                                     <use href={ "/img/sprite.svg#icon-horiz-ruler" }></use>

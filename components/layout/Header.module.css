@@ -1,3 +1,9 @@
+.warning {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .header {
   display: flex;
   justify-content: space-between;

@@ -1,3 +1,9 @@
+.warning {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .button {
   font: inherit;
   font-size: 1.4rem;

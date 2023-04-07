@@ -77,6 +77,12 @@ a {
     font-size: 56.25%;
   }
 }
+.warning {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -121,6 +127,10 @@ ul {
 .heading-1 {
   font-size: 3.6rem;
   color: #16471f;
+}
+
+[href^=https] {
+  color: #A5560E;
 }
 
 .container {

@@ -7,3 +7,5 @@ Fertilizer: https://www.finegardening.com/project-guides/container-gardening/fer
 
 ## Resources
 Tomato: https://www.epicgardening.com/growing-tomatoes-in-raised-beds
+Plants general: https://plantaddicts.com/
+Fertilizer: https://www.gardeningknowhow.com/garden-how-to/soil-fertilizers/bone-meal-fertilizer.htm

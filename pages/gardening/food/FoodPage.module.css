@@ -1,3 +1,9 @@
+.warning {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .header {
   text-align: center;
 }
@@ -67,6 +73,11 @@
   width: 2.4rem;
   fill: #000000;
   flex: 0 0 auto;
+}
+
+.external__link {
+  font-size: 1.8rem;
+  padding-top: 2.4rem;
 }
 
 .section__notes {
