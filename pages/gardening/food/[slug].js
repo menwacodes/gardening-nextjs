@@ -103,13 +103,13 @@ const FoodById = ({food}) => {
                         </ul>
                     </section>
                 </article>
-                { food.notes.length > 0 &&
+                { food.notes && food.notes.length > 0 &&
                     <>
                         <h2 className={ classes.header__notes }>Notes</h2>
                         <article className={ classes.notes } dangerouslySetInnerHTML={ { __html: food.notes } }/>
                     </>
                 }
-                { food.url.length > 0 &&
+                { food.url && food.url.length > 0 &&
                     <p>See also <a href={ food.url } target={ "_blank" } rel="noreferrer">{ food.url }</a></p>
                 }
 

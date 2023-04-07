@@ -3,7 +3,9 @@ import BasicButton from "@/components/ui/buttons/BasicButton";
 import {useState} from "react";
 import classes from "../GardeningHome.module.scss";
 
-const FlowersHomePage = ({ allFlowers, count }) => {
+import {getFlowerData} from "@/pages/api/gardening/flowers";
+
+const FlowersHomePage = ({ allFlowers}) => {
     // sort flowers and put into state
     const [flowerItems, setFlowerItems] = useState(allFlowers.sort((a, b) => a.plant > b.plant ? 1 : -1));
 
@@ -37,9 +39,12 @@ const FlowersHomePage = ({ allFlowers, count }) => {
 };
 
 export async function getStaticProps() {
-    const response = await fetch(`http://localhost:3000/api/gardening/flowers`);
-    const data = await response.json();
-    return { props: { allFlowers: data.data, count: data.count } };
+    // const response = await fetch(`http://localhost:3000/api/gardening/flowers`);
+    // const data = await response.json();
+    const data = await getFlowerData();
+
+    // if (!data) return;
+    return { props: { allFlowers: data} };
 }
 
 export default FlowersHomePage;
