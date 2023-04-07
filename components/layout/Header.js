@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className={ classes.header }>
             <div className={ classes.header__logo }>
-                <Link href={ "/" }>
+                <Link href={ "/gardening/food" }>
                     Gardening
                 </Link>
             </div>
