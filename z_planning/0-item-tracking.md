@@ -3,5 +3,23 @@
    1. Borrow from food card for styling
    2. Rename styling card to be more generic
 3. [x] Flower detail page from linked card on landing
-4. [ ] Migrate JSON to mongo and pull from there
-5. [ ] Make a badge for annual/perennial
+4. [x] Migrate JSON to mongodb
+   1. [x] Use mongo import cli
+   2. [x] Create DB helper to connect
+   3. [x] Connect locally
+   4. [x] Update APIs source for data
+5. [ ] Implement auth
+   1. [ ] Create Auth helper for hashing / verifying password from db
+   2. [ ] Create Sign Up API
+      1. [ ] Create users with 'user' then update me with 'admin'
+   3. [ ] Create Auth Form
+   4. [ ] Use full-smelly-cat project to do `next-auth`
+   5. [ ] Create logout link
+   6. [ ] Test
+      1. [ ] Create dummy route for admin and for user 
+      2. [ ] Test logged in admin and user
+      3. [ ] Test not logged in
+6. [ ] Swap DB endpoint
+7. [ ] Make a badge for annual/perennial
+
+Look at route guard in full smelly cat

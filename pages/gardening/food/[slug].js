@@ -2,14 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import classes from "./FoodPage.module.scss";
 
-import {getFoodData} from "@/pages/api/gardening/food";
+import {getFood} from "@/pages/api/gardening/food";
 
 const FoodById = ({food}) => {
 
     return (
         <>
-            <Head>
-                <title>Gardening | {food.plant}</title>
+            <Head subtitle={food.plant}>
+                <title>{ `Gardening | ${ food.plant }` }</title>
+                <meta name={"description"} content={`Food details for ${food.plant}`}/>
             </Head>
             <div className={ "container" }>
                 <header className={ classes.header }>
@@ -119,10 +120,7 @@ const FoodById = ({food}) => {
 };
 
 export async function getStaticPaths() {
-    // const response = await fetch(`http://localhost:3000/api/gardening/food`); // data
-    // const data = await response.json();
-
-    const data = await getFoodData();
+    const data = await getFood();
 
     const pathParams = data.map(datum => ({params: {slug: datum.slug}})); // component-specific id
 
@@ -131,15 +129,11 @@ export async function getStaticPaths() {
 
 
 export async function getStaticProps({params}) {
-    // const response = await fetch(`http://localhost:3000/api/gardening/food`); // data
-    // const data = await response.json();
-
-    const data = await getFoodData();
-
+    const data = await getFood();
 
     const food = data.find(f => f.slug === params.slug);
 
-    return {props: {food}, revalidate: 10};
+    return {props: {food: JSON.parse(JSON.stringify(food))}, revalidate: 10};
 }
 
 export default FoodById;

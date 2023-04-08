@@ -1,18 +1,13 @@
-import getJsonFile from "@/lib/fileHelper";
+import mongoConnect from "@/lib/mongo-connect";
 
-export async function getFlowerData() {
-    const data = await getJsonFile("flowers.json")
-    return JSON.parse(JSON.stringify(data))
-}
-
-export default async function handler(req, res) {
-    if (req.method === "GET") {
-        try {
-          const data = await getJsonFile("flowers.json")
-          return res.status(200).json({status: "success", count: data.length, data})
-        } catch (error) {
-          console.error(error);
-          return res.status(500).json({status: "fail", message: "An error occurred"})
-        }
+export const getFlowers = async (req, res) => {
+    try {
+        const client = await mongoConnect();
+        const db = client.db();
+        const collection = db.collection("flowers")
+        return await collection.find({}).sort({ plant: 1 }).toArray();
+    } catch (err) {
+        console.error(err);
+        return res.status(500).json({ message: "fail" })
     }
 }

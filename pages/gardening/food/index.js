@@ -2,13 +2,13 @@ import BasicButton from "@/components/ui/buttons/BasicButton";
 import {useState} from "react";
 import classes from "../GardeningHome.module.scss";
 
-import {getFoodData} from "@/pages/api/gardening/food";
+import {getFood} from "@/pages/api/gardening/food";
 
 import FoodCard from "@/components/gardening/food/FoodCard";
 
 const FoodHomePage = ({ allFood}) => {
     // sort food by name and put into state
-    const [foodItems, setFoodItems] = useState(allFood.sort((a, b) => a.plant > b.plant ? 1 : -1));
+    const [foodItems, setFoodItems] = useState(allFood);
     // maintenance mode should be default after testing and everything is planted
     const [showMaintenance, setShowMaintenance] = useState(false);
 
@@ -59,12 +59,9 @@ const FoodHomePage = ({ allFood}) => {
 
 
 export async function getStaticProps() {
-    // const response = await fetch(`http://localhost:3000/api/gardening/food`);
-    // const data = await response.json();
-    const data = await getFoodData();
+    const data = await getFood();
 
-    // if (!data) return;
-    return { props: { allFood: data} };
+    return { props: { allFood: JSON.parse(JSON.stringify(data))} };
 }
 
 export default FoodHomePage;

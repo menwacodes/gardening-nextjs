@@ -3,11 +3,11 @@ import BasicButton from "@/components/ui/buttons/BasicButton";
 import {useState} from "react";
 import classes from "../GardeningHome.module.scss";
 
-import {getFlowerData} from "@/pages/api/gardening/flowers";
+import {getFlowers} from "@/pages/api/gardening/flowers";
 
 const FlowersHomePage = ({ allFlowers}) => {
     // sort flowers and put into state
-    const [flowerItems, setFlowerItems] = useState(allFlowers.sort((a, b) => a.plant > b.plant ? 1 : -1));
+    const [flowerItems, setFlowerItems] = useState(allFlowers);
 
     // maintenance mode should be default after testing and everything is planted
     const [showMaintenance, setShowMaintenance] = useState(false);
@@ -39,12 +39,8 @@ const FlowersHomePage = ({ allFlowers}) => {
 };
 
 export async function getStaticProps() {
-    // const response = await fetch(`http://localhost:3000/api/gardening/flowers`);
-    // const data = await response.json();
-    const data = await getFlowerData();
-
-    // if (!data) return;
-    return { props: { allFlowers: data} };
+    const data = await getFlowers();
+    return { props: { allFlowers: JSON.parse(JSON.stringify(data))} };
 }
 
 export default FlowersHomePage;

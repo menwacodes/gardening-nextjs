@@ -3,15 +3,16 @@ import Image from "next/image";
 import classes from "../food/FoodPage.module.scss";
 import {numToFrac} from "@/lib/numberHelper";
 
-import {getFlowerData} from '../../api/gardening/flowers'
-
+// import {getFlowerData} from '../../api/gardening/flowers'
+import {getFlowers} from "@/pages/api/gardening/flowers";
 
 const FlowersById = ({ flower }) => {
 
     return (
         <>
             <Head>
-                <title>Gardening | { flower.plant }</title>
+                <title>{ `Gardening | ${ flower.plant }` }</title>
+                <meta name={"description"} content={`Flower details for ${flower.plant}`}/>
             </Head>
             <article className={ "container" }>
                 <header className={ classes.header }>
@@ -157,9 +158,7 @@ const FlowersById = ({ flower }) => {
 };
 
 export async function getStaticPaths() {
-    // const response = await fetch(`/api/gardening/flowers`); // data
-    // const data = await response.json();
-    const data = await getFlowerData();
+    const data = await getFlowers();
 
     const pathParams = data.map(datum => ({ params: { slug: datum.slug } }));
 
@@ -168,14 +167,11 @@ export async function getStaticPaths() {
 
 
 export async function getStaticProps({ params }) {
-    // const response = await fetch(`/api/gardening/flowers`); // data
-    // const data = await response.json();
-    const data = await getFlowerData();
-
+    const data = await getFlowers();
 
     const flower = data.find(f => f.slug === params.slug);
 
-    return { props: { flower }, revalidate: 10 };
+    return { props: { flower: JSON.parse(JSON.stringify(flower)) }, revalidate: 10 };
 }
 
 export default FlowersById;
