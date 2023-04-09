@@ -20,7 +20,6 @@ export const registerUser = createAsyncThunk('user/register',
             });
 
             await router.push("/");
-            console.log(user.data);
 
             return user.data;
 
@@ -46,6 +45,10 @@ export const signInUser = createAsyncThunk('user/signInUser',
             }
 
             // Get user data for Redux
+            const response = await fetch('/api/users/user')
+            const user = await response.json();
+            await router.push('/')
+            return user;
 
         } catch (error) {
             console.error(error);

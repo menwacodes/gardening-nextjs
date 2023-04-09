@@ -9,12 +9,12 @@
    3. [x] Connect locally
    4. [x] Update APIs source for data
 5. [ ] Implement auth
-   1. [ ] Create Auth helper for hashing / verifying password from db
-   2. [ ] Create Sign Up API
+   1. [x] Create Auth helper for hashing / verifying password from db
+   2. [x] Create Sign Up API
       1. [ ] Create users with 'user' then update me with 'admin'
-   3. [ ] Create Auth Form
-   4. [ ] Use full-smelly-cat project to do `next-auth`
-   5. [ ] Create logout link
+   3. [x] Create Auth Form
+   4. [x] Use full-smelly-cat project to do `next-auth`
+   5. [x] Create logout link
    6. [ ] Test
       1. [ ] Create dummy route for admin and for user 
       2. [ ] Test logged in admin and user
