@@ -1,4 +1,5 @@
 import MainLayout from "@/components/layout/MainLayout";
+import SessionCheck from "@/lib/sessionCheck";
 import {Provider} from "react-redux";
 import {store} from "@/store";
 
@@ -8,9 +9,11 @@ export default function App({Component, pageProps}) {
     return (
         <>
             <Provider store={store}>
-                <MainLayout>
-                    <Component {...pageProps} />
-                </MainLayout>
+                <SessionCheck>
+                    <MainLayout>
+                        <Component { ...pageProps } />
+                    </MainLayout>
+                </SessionCheck>
             </Provider>
         </>
     );

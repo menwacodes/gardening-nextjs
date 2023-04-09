@@ -4,6 +4,8 @@ next.config.js
 .env
 
 z_planning/sensitive.md
+z_planning/user-stuff.md
+z_planning/user-stuff.txt
 
 # dependencies
 /node_modules

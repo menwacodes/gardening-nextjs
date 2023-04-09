@@ -1,10 +1,13 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import connectMongoose from "@/database/mongoose-connect.js";
-import {findUserByEmail, passwordsEqual} from "@/database/services/userService.js";
+import connectMongoose from "@/database/db";
+import {findUserByEmail, passwordsEqual} from "@/database/services/userService";
 
 export default NextAuth({
-    session: {jwt: true},
+    session: {
+        // secret: "O40wiKy6b0dcR/4nPBpUERKuMoq2eFfsc7VQ0BpGPSs",
+        jwt: true
+    },
     providers: [
         CredentialsProvider({
             async authorize(credentials) {

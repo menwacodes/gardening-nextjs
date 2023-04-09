@@ -21,6 +21,11 @@ const Header = () => {
                             Food
                         </Link>
                     </li>
+                    <li className={ classes.header__nav__item }>
+                        <Link className={ classes.header__nav__item } href={ "/users/login" }>
+                            Login
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         </header>
