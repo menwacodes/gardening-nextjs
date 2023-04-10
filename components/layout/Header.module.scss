@@ -34,3 +34,15 @@
         }
     }
 }
+
+/*
+    iPhone 12 Pro Max
+ */
+@media (max-width: 43.2rem) {
+    .header__logo {
+        font-size: 3rem;
+    }
+    .header__nav {
+        font-size: 2rem;
+    }
+}

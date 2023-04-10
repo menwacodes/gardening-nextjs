@@ -16,10 +16,11 @@
    4. [x] Use full-smelly-cat project to do `next-auth`
    5. [x] Create logout link
    6. [ ] Test
-      1. [ ] Create dummy route for admin and for user 
+      1. [ ] Create dummy route for admin and for user (Look at route guard in full smelly cat)
       2. [ ] Test logged in admin and user
       3. [ ] Test not logged in
-6. [ ] Swap DB endpoint
-7. [ ] Make a badge for annual/perennial
+6. [ ] Create model for food & flowers
+7. [x] Make nav mobile friendly, use /Users/mike/localCoding/CSS/jonas-css-course-material/Natours/after-S05 as a reference
+8. [ ] Make a badge for annual/perennial
+9. [ ] Swap DB endpoint
 
-Look at route guard in full smelly cat
