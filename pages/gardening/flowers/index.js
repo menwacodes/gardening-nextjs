@@ -1,9 +1,8 @@
 import FlowerCard from "@/components/gardening/flowers/FlowerCard";
 import BasicButton from "@/components/ui/buttons/BasicButton";
 // import {isAdmin} from "@/pages/api/auth/get-role";
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import classes from "../GardeningHome.module.scss";
-import {getSession} from "next-auth/react";
 
 import {getFlowers} from "@/pages/api/gardening/flowers";
 
