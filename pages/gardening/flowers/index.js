@@ -1,12 +1,15 @@
 import FlowerCard from "@/components/gardening/flowers/FlowerCard";
 import BasicButton from "@/components/ui/buttons/BasicButton";
-import {useState} from "react";
+// import {isAdmin} from "@/pages/api/auth/get-role";
+import {useEffect, useState} from "react";
 import classes from "../GardeningHome.module.scss";
+import {getSession} from "next-auth/react";
 
 import {getFlowers} from "@/pages/api/gardening/flowers";
 
-const FlowersHomePage = ({ allFlowers}) => {
-    // sort flowers and put into state
+const FlowersHomePage = ({ allFlowers }) => {
+
+    // put flowers into state
     const [flowerItems, setFlowerItems] = useState(allFlowers);
 
     // maintenance mode should be default after testing and everything is planted
@@ -24,15 +27,15 @@ const FlowersHomePage = ({ allFlowers}) => {
     );
 
     return (
-        <article className={classes.food__container}>
-            <h1 className={"heading-1 center-text"}>Flowers</h1>
+        <article className={ classes.food__container }>
+            <h1 className={ "heading-1 center-text" }>Flowers</h1>
             <div className={ "food-buttons" }>
                 <BasicButton onClick={ showTypeHandler }>
                     { showMaintenance ? "Planting Deets" : "Maintenance Deets" }
                 </BasicButton>
             </div>
-            <div className={classes.food_grid}>
-                {flowerCards}
+            <div className={ classes.food_grid }>
+                { flowerCards }
             </div>
         </article>
     );
@@ -40,7 +43,7 @@ const FlowersHomePage = ({ allFlowers}) => {
 
 export async function getStaticProps() {
     const data = await getFlowers();
-    return { props: { allFlowers: JSON.parse(JSON.stringify(data))} };
+    return { props: { allFlowers: JSON.parse(JSON.stringify(data)) } };
 }
 
 export default FlowersHomePage;

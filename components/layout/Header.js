@@ -2,6 +2,7 @@ import {signOutUser} from "@/store/reducers/userReducer";
 import Link from "next/link";
 import {useRouter} from "next/router";
 import {useDispatch, useSelector} from "react-redux";
+import {signOut} from "next-auth/react";
 
 import classes from "./Header.module.scss";
 
@@ -41,15 +42,17 @@ const Header = () => {
                         <li className={ classes.header__nav__item }>
                             <Link
                                 className={ classes.header__nav__item } href={ "#" }
-                                onClick={()=>{
-                                    dispatch(signOutUser());
-                                    router.push("/")
+                                onClick={() => {
+                                    signOut({callbackUrl: "/"});
                                 }}
                             >
                                 Logout
                             </Link>
                         </li>
                     }
+                    <Link className={ classes.header__nav__item } href={ "/admin-page" }>
+                                Admin
+                            </Link>
                 </ul>
             </nav>
         </header>

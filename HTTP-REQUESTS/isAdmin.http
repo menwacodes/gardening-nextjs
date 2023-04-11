@@ -1,0 +1,6 @@
+POST http://localhost:3000/api/users/isAdmin
+Content-Type: application/json
+
+{
+  "body": "mikeobw@gmail.com"
+}
