@@ -3,9 +3,9 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import connectMongoose from "@/database/db";
 import {findUserByEmail, passwordsEqual} from "@/database/services/userService";
 
-export default NextAuth({
+export const authOptions = {
     session: {
-        // secret: "O40wiKy6b0dcR/4nPBpUERKuMoq2eFfsc7VQ0BpGPSs",
+        secret: "O40wiKy6b0dcR/4nPBpUERKuMoq2eFfsc7VQ0BpGPSs",
         jwt: true
     },
     providers: [
@@ -28,4 +28,5 @@ export default NextAuth({
             }
         })
     ]
-});
+}
+export default NextAuth(authOptions);
