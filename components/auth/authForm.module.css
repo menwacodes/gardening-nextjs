@@ -1,0 +1,55 @@
+.warning {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
+  gap: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  min-width: 24rem;
+  align-items: center;
+}
+.form__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+  width: 100%;
+}
+.form__buttons__button {
+  display: block;
+}
+.form__group {
+  width: 100%;
+}
+.form__control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #d7f0db;
+  border: none;
+  border-bottom: 1px solid transparent;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+.form__control:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(22, 71, 31, 0.1);
+  border-bottom: 1px solid #16471f;
+}
+.form__label {
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+
+/*# sourceMappingURL=authForm.module.css.map */

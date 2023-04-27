@@ -1,9 +1,11 @@
+import BasicButton from "@/components/ui/buttons/BasicButton";
 import {getSession} from "next-auth/react";
 import {useEffect, useRef, useState} from "react";
 import {useRouter} from "next/router";
 import {useDispatch, useSelector} from "react-redux";
 import {registerUser, signInUser} from "@/store/actions/userAction";
 import LoadingSpinner from "@/components/ui/spinner/LoadingSpinner";
+import classes from "./authForm.module.scss";
 
 export default function AuthForm() {
     const router = useRouter();
@@ -70,30 +72,25 @@ export default function AuthForm() {
             {verifyingSession || user.loading
                 ? <LoadingSpinner />
                 :
-                <>
+                <main className={classes.main}>
                     <h1>{ isSignIn ? "Sign In" : "Sign Up" }</h1>
-                    <form onSubmit={ submitHandler }>
-                        <div>
-                            <label htmlFor={ "email" }>Enter email</label>
-                            <input type={ "email" } id={ "email" } required ref={ emailInputRef }
+                    <form className={classes.form} onSubmit={ submitHandler }>
+                        <div className={classes.form__group}>
+                            <label className={classes.form__label} htmlFor={ "email" }>Enter email</label>
+                            <input className={classes.form__control} type={ "email" } id={ "email" } required ref={ emailInputRef }
                                    defaultValue={ "mikeobw@gmail.com" }/>
                         </div>
-                        <div>
-                            <label htmlFor={ "password" }>Enter password</label>
-                            <input type={ "password" } id={ "password" } required ref={ passwordInputRef }
+                        <div className={classes.form__group}>
+                            <label className={classes.form__label} htmlFor={ "password" }>Enter password</label>
+                            <input className={classes.form__control} type={ "password" } id={ "password" } required ref={ passwordInputRef }
                                    defaultValue={ "password" }/>
                         </div>
-                        <div>
-                            <button>{ isSignIn ? "Login" : "Create Account" }</button>
-                            <button
-                                type={ "button" }
-                                onClick={ switchAuthModeHandler }
-                            >
-                                { isSignIn ? "Gimme Sign Up" : "Gimme Sign In" }
-                            </button>
+                        <div className={classes.form__buttons}>
+                            <BasicButton type={"submit"}>{ isSignIn ? "Login" : "Create Account" }</BasicButton>
+                            <BasicButton onClick={switchAuthModeHandler}>{ isSignIn ? "Sign Up" : "Sign In" }</BasicButton>
                         </div>
                     </form>
-                </>
+                </main>
             }
         </div>
     );

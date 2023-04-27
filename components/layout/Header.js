@@ -42,17 +42,17 @@ const Header = () => {
                         <li className={ classes.header__nav__item }>
                             <Link
                                 className={ classes.header__nav__item } href={ "#" }
-                                onClick={() => {
-                                    signOut({callbackUrl: "/"});
-                                }}
+                                onClick={ () => {
+                                    signOut({ callbackUrl: "/" });
+                                } }
                             >
                                 Logout
                             </Link>
                         </li>
                     }
                     <Link className={ classes.header__nav__item } href={ "/admin-page" }>
-                                Admin
-                            </Link>
+                        Admin
+                    </Link>
                 </ul>
             </nav>
         </header>

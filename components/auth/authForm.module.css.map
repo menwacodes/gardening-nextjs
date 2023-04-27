@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../styles/base/_colors.scss","authForm.module.scss"],"names":[],"mappings":"AAWA;EACI;EACA;EACA;;;ACZJ;EACI;EACA;EACA;EACA;EACA;;;AAIJ;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;;AACA;EACI;;AAIR;EACI;;AAGJ;EACI;EACA;EACA;EACA,kBD/Ba;ECgCb;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA","file":"authForm.module.css"}
