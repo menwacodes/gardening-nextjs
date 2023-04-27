@@ -16,6 +16,16 @@ const FlowersHomePage = ({ allFlowers }) => {
 
     const showTypeHandler = () => setShowMaintenance(!showMaintenance);
 
+    const sortFlowerItems = sortBy => {
+        let newFlowerItems;
+        if (sortBy === "seasonality") {
+            newFlowerItems = flowerItems
+                .slice()
+                .sort((a, b) => a.attributes.seasonality > b.attributes.seasonality ? 1 : -1);
+        }
+        setFlowerItems(newFlowerItems);
+    };
+
     // create cards
     const flowerCards = flowerItems.map(flower =>
         <FlowerCard
@@ -31,6 +41,9 @@ const FlowersHomePage = ({ allFlowers }) => {
             <div className={ "food-buttons" }>
                 <BasicButton onClick={ showTypeHandler }>
                     { showMaintenance ? "Planting Deets" : "Maintenance Deets" }
+                </BasicButton>
+                <BasicButton onClick={ () => sortFlowerItems("seasonality") }>
+                    Sort Season
                 </BasicButton>
             </div>
             <div className={ classes.food_grid }>

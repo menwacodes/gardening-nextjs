@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Fertilizer</title>
+    <style>
+        .cards {
+            display: flex;
+            gap: 2.4rem;
+        }
+        .card {
+            width: 20vw;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem 2rem;
+        }
+        .card__detail {
+            border-bottom: 1px solid black;
+        }
+        .card__footer {
+            padding-top: 2rem;
+            display: block;
+            margin: 0 auto;
+        }
+        .npk {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+        .npk__value {
+            display: flex;
+            align-items: center;
+            gap: .2rem;
+        }
+    </style>
+</head>
+<body>
+<div class="cards">
+    <div class="card">
+        <header class="card__header">
+            <h1>Carrots</h1>
+        </header>
+        <section class="card__detail">
+            <div class="npk">
+        <span class="npk__value">
+            <svg style="height: 24px;width: 24px;color: black;">
+                <use href="../../../public/img/sprite.svg#icon-dd-arrow"></use>
+            </svg>
+            N
+        </span>
+                <span class="npk__value">
+            <svg style="height: 24px;width: 24px;color: black;">
+                <use href="../../../public/img/sprite.svg#icon-du-arrow"></use>
+            </svg>
+            P
+        </span>
+                <span class="npk__value">
+            <svg style="height: 24px;width: 24px;color: black;">
+                <use href="../../../public/img/sprite.svg#icon-du-arrow"></use>
+            </svg>
+            K
+        </span>
+            </div>
+            <p style="text-align:center; border-bottom: 1px solid black;padding-bottom: 1rem;">0-10-10, 5-15-15, can
+                also use bonemeal</p>
+            <h2>Notes</h2>
+            <ul>
+                <li>Fertilize when reached 3&quot; tall</li>
+                <li>Too much fertilizer spoils the taste</li>
+                <li>Carrots are high in K, use potash side dressed, 4-8 weeks after planting</li>
+            </ul>
+        </section>
+        <footer class="card__footer">
+            <button>Log Entry</button>
+        </footer>
+    </div>
+
+    <div class="card">
+        <header class="card__header">
+            <h1>Kale</h1>
+        </header>
+        <section class="card__detail">
+            <div class="npk">
+        <span class="npk__value">
+            <svg style="height: 24px;width: 24px;color: black;">
+                <use href="../../../public/img/sprite.svg#icon-u-arrow"></use>
+            </svg>
+            N
+        </span>
+                <span class="npk__value">
+            <svg style="height: 24px;width: 24px;color: black;">
+                <use href="../../../public/img/sprite.svg#icon-d-arrow"></use>
+            </svg>
+            P
+        </span>
+                <span class="npk__value">
+            <svg style="height: 24px;width: 24px;color: black;">
+                <use href="../../../public/img/sprite.svg#icon-u-arrow"></use>
+            </svg>
+            K
+        </span>
+            </div>
+            <p style="text-align:center; border-bottom: 1px solid black;padding-bottom: 1rem;">0-10-10, 5-15-15, can
+                also use bonemeal</p>
+            <h2>Notes</h2>
+            <ul>
+                <li>Heavy feeder</li>
+                <li>Start fertilizing after second set of true leaves</li>
+                <li>Fertilize every 2 weeks</li>
+            </ul>
+        </section>
+        <footer class="card__footer">
+            <button>Log Entry</button>
+        </footer>
+
+    </div>
+</div>
+
+
+</body>
+</html>

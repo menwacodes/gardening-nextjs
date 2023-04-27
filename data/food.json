@@ -12,13 +12,13 @@
           "min": 6,
           "max": 8
         },
-        "type": "taproot"
+        "type": "Taproot"
       },
       "sun": {
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "annual"
+      "yearType": "Annual"
     },
     "lifecycle": {
       "sow": {
@@ -56,7 +56,7 @@
           "min": 12,
           "max": 18
         },
-        "type": "fibrous"
+        "type": "Fibrous"
       },
       "soil": {
         "conditions": "Warm, deep, well-drained",
@@ -69,7 +69,7 @@
         "exposure": "partial",
         "hoursPerDay": 6
       },
-      "yearType": "perennial"
+      "yearType": "Perennial"
     },
     "lifecycle": {
       "sow": {
@@ -106,7 +106,7 @@
           "min": 12,
           "max": 18
         },
-        "type": "adventitious"
+        "type": "Adventitious"
       },
       "soil": {
         "conditions": "Moisture retentive while well-drained",
@@ -119,7 +119,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "annual"
+      "yearType": "Annual"
     },
     "lifecycle": {
       "sow": {
@@ -157,7 +157,7 @@
           "min": 12,
           "max": 36
         },
-        "type": "adventitious"
+        "type": "Adventitious"
       },
       "soil": {
         "conditions": "Well worked rich, loose well-drained soil",
@@ -170,7 +170,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "annual"
+      "yearType": "Annual"
     },
     "lifecycle": {
       "sow": {
@@ -208,7 +208,7 @@
           "min": 10,
           "max": 24
         },
-        "type": "taproot"
+        "type": "Taproot"
       },
       "soil": {
         "conditions": "Rich, moist, sandy loam is best",
@@ -221,7 +221,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "annual"
+      "yearType": "Annual"
     },
     "lifecycle": {
       "sow": {
@@ -258,7 +258,7 @@
           "min": 8,
           "max": 12
         },
-        "type": "taproot"
+        "type": "Taproot"
       },
       "soil": {
         "conditions": "Well-drained, rich",
@@ -271,7 +271,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "annual"
+      "yearType": "Annual"
     },
     "lifecycle": {
       "sow": {
@@ -282,7 +282,7 @@
       },
       "seedling": {
         "daysToGermination": 14,
-        "thinning": "",
+        "thinning": "Thin to 2\"",
         "transplanting": "2 inches on either transplant or sow direct"
       },
       "grow": {
@@ -293,7 +293,7 @@
         }
       }
     },
-    "notes": ""
+    "notes": "<p>Row width: 12\"</p>"
   },
   {
     "slug": "cilantro",
@@ -307,7 +307,7 @@
           "min": 8,
           "max": 18
         },
-        "type": "taproot"
+        "type": "Taproot"
       },
       "soil": {
         "conditions": "",
@@ -320,7 +320,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "annual"
+      "yearType": "Annual"
     },
     "lifecycle": {
       "sow": {
@@ -357,7 +357,7 @@
           "min": 12,
           "max": 24
         },
-        "type": "taproot"
+        "type": "Taproot"
       },
       "soil": {
         "conditions": "moderately rich",
@@ -370,7 +370,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "biennial"
+      "yearType": "Biennial"
     },
     "lifecycle": {
       "sow": {
@@ -408,7 +408,7 @@
           "min": 6,
           "max": 18
         },
-        "type": "taproot"
+        "type": "Taproot"
       },
       "soil": {
         "conditions": "",
@@ -421,7 +421,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "perennial"
+      "yearType": "Perennial"
     },
     "lifecycle": {
       "sow": {
@@ -457,7 +457,7 @@
           "min": 12,
           "max": 16
         },
-        "type": "taproot"
+        "type": "Taproot"
       },
       "soil": {
         "conditions": "Well-drained, rich in organic matter",
@@ -470,7 +470,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "biennial"
+      "yearType": "Biennial"
     },
     "lifecycle": {
       "sow": {
@@ -493,7 +493,7 @@
       }
     },
     "notes":
-      "<p>Harvest parsley by cutting the leafy stems from the base of the plant—this will also serve to make the plant grow back bushier</p><p>Parsley taproot is edible</p>"
+      "<p>Harvest parsley by cutting the leafy stems from the base of the plant—this will also serve to make the plant grow back bushier</p><p>Parsley Taproot is edible</p>"
   },
   {
     "slug": "rosemary",
@@ -508,7 +508,7 @@
           "min": 10,
           "max": 14
         },
-        "type": "taproot"
+        "type": "Taproot"
       },
       "soil": {
         "conditions": "Well-draining, relatively fertile",
@@ -521,7 +521,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "perennial"
+      "yearType": "Perennial"
     },
     "lifecycle": {
       "sow": {
@@ -558,7 +558,7 @@
           "min": 18,
           "max": 24
         },
-        "type": "fibrous"
+        "type": "Fibrous"
       },
       "soil": {
         "conditions": "",
@@ -571,7 +571,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "annual"
+      "yearType": "Annual"
     },
     "lifecycle": {
       "sow": {
@@ -608,7 +608,7 @@
           "min": 4,
           "max": 6
         },
-        "type": "taproot"
+        "type": "Taproot"
       },
       "soil": {
         "conditions": "",
@@ -621,7 +621,7 @@
         "exposure": "full",
         "hoursPerDay": 6
       },
-      "yearType": "annual"
+      "yearType": "Annual"
     },
     "lifecycle": {
       "sow": {
@@ -659,7 +659,7 @@
           "min": 14,
           "max": 24
         },
-        "type": "taproot"
+        "type": "Taproot"
       },
       "soil": {
         "conditions": "",
@@ -672,7 +672,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "perennial"
+      "yearType": "Perennial"
     },
     "lifecycle": {
       "sow": {
@@ -716,7 +716,7 @@
           "min": 20,
           "max": 24
         },
-        "type": "fibrous"
+        "type": "Adventitious"
       },
       "soil": {
         "conditions": "Reliably moist, well drained",
@@ -729,7 +729,7 @@
         "exposure": "full",
         "hoursPerDay": 8
       },
-      "yearType": "annual"
+      "yearType": "Annual"
     },
     "lifecycle": {
       "sow": {

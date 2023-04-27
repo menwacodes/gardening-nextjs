@@ -19,9 +19,11 @@
       1. [x] Create dummy route for admin and for user (Look at route guard in full smelly cat)
       2. [x] Test logged in admin and user
       3. [x] Test not logged in
-6. [ ] Create model for food & flowers
+6. [x] Create model for food & flowers
 7. [ ] Polish login form
 8. [x] Make nav mobile friendly, use /Users/mike/localCoding/CSS/jonas-css-course-material/Natours/after-S05 as a reference
 9. [ ] Make a badge for annual/perennial
 10. [ ] Swap DB endpoint
+11. [ ] Sort flowers by root depth
+12. [ ] Convert flowers.attributes.attracts into an array and make searchable
 

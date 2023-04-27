@@ -7,7 +7,6 @@ import {numToFrac} from "@/lib/numberHelper";
 import {getFlowers} from "@/pages/api/gardening/flowers";
 
 const FlowersById = ({ flower }) => {
-
     return (
         <>
             <Head>

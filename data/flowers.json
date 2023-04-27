@@ -172,6 +172,7 @@
         "minDepth": 6,
         "type": "Shallow"
       },
+      "seasonality": "Perennial",
       "soil": {
         "conditions": "Any, well-drained",
         "pH": {
@@ -384,7 +385,7 @@
     "attributes": {
       "attracts": "Pollinators",
       "root": {
-        "minDepth": 0,
+        "minDepth": 4,
         "type": "Adventitious"
       },
       "seasonality": "Annual",
