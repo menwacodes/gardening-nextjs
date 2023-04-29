@@ -27,11 +27,13 @@ const AdminPage = (props) => {
 // }
 
 export async function getServerSideProps(context) {
-    const session = await getServerSession(context.req, context.res, authOptions)
-    const email = session.user.email
-    const admin = await isAdmin(email)
+    const session = await getServerSession(context.req, context.res, authOptions);
+    if (!session) return { props: { admin: false } };
 
-    return {props: { admin }}
+    const email = session.user.email;
+    const admin = await isAdmin(email);
+
+    return { props: { admin } };
 }
 
 export default AdminPage;
