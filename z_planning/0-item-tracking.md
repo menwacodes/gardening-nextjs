@@ -1,3 +1,5 @@
+# Release 2
+
 1. [x] Layout with rough nav - See hosukai for example
 2. [x] Flower card for landing
    1. Borrow from food card for styling
@@ -22,8 +24,12 @@
 6. [x] Create model for food & flowers
 7. [x] Polish login form
 8. [x] Make nav mobile friendly, use /Users/mike/localCoding/CSS/jonas-css-course-material/Natours/after-S05 as a reference
-9. [ ] Make a badge for annual/perennial
-10. [ ] Swap DB endpoint
-11. [ ] Sort flowers by root depth
-12. [ ] Convert flowers.attributes.attracts into an array and make searchable
+9. [x] Make a badge for annual/perennial
+10. [x] Swap DB endpoint
+11. [x] Sort flowers by root depth
+
+
+BackLog
+1. [ ] Update Seasonality flex item to badge
+2. [ ] Convert flowers.attributes.attracts into an array and make searchable
 

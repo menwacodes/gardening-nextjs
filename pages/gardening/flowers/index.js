@@ -6,6 +6,24 @@ import classes from "../GardeningHome.module.scss";
 
 import {getFlowers} from "@/pages/api/gardening/flowers";
 
+// /**
+//  * Function takes in an array of flowers and returns by specific sort
+//  * @param flowers: Array of flowers from state
+//  * @param sortBy: What flowers should be sorted by
+//  * @return: Sorted array
+//  */
+// const sortFlowers = (flowers, sortBy) => {
+//     console.log(flowers)
+//     console.log(sortBy)
+//     let returnedFlowers = flowers.slice();
+//     if (sortBy === "seasonality") {
+//         returnedFlowers = flowers.sort((a, b) => a.attributes.seasonality > b.attributes.seasonality ? 1 : -1)
+//     }
+//     console.log(returnedFlowers)
+//
+//     return returnedFlowers;
+// }
+
 const FlowersHomePage = ({ allFlowers }) => {
 
     // put flowers into state
@@ -17,12 +35,23 @@ const FlowersHomePage = ({ allFlowers }) => {
     const showTypeHandler = () => setShowMaintenance(!showMaintenance);
 
     const sortFlowerItems = sortBy => {
+
+        // const sortedFlowers = sortFlowers(flowerItems, "seasonality")
+        // setFlowerItems(sortedFlowers)
+
         let newFlowerItems;
         if (sortBy === "seasonality") {
             newFlowerItems = flowerItems
                 .slice()
                 .sort((a, b) => a.attributes.seasonality > b.attributes.seasonality ? 1 : -1);
         }
+
+        if (sortBy === "rootDepth")  {
+            newFlowerItems = flowerItems
+                .slice()
+                .sort((a, b) => a.attributes.root.minDepth > b.attributes.root.minDepth ? 1 : -1)
+        }
+
         setFlowerItems(newFlowerItems);
     };
 
@@ -44,6 +73,9 @@ const FlowersHomePage = ({ allFlowers }) => {
                 </BasicButton>
                 <BasicButton onClick={ () => sortFlowerItems("seasonality") }>
                     Sort Season
+                </BasicButton>
+                <BasicButton onClick={ () => sortFlowerItems("rootDepth") }>
+                    Sort Root Depth
                 </BasicButton>
             </div>
             <div className={ classes.food_grid }>
