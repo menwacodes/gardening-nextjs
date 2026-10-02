@@ -5,7 +5,7 @@ import {findUserByEmail, passwordsEqual} from "@/database/services/userService";
 
 export const authOptions = {
     session: {
-        secret: "O40wiKy6b0dcR/4nPBpUERKuMoq2eFfsc7VQ0BpGPSs",
+        secret: "NotAnActualSecret",
         jwt: true
     },
     providers: [
